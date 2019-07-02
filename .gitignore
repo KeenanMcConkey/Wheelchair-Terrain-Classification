@@ -8,3 +8,6 @@ imgs/**
 
 # Ignore backups
 *~
+
+# Ignore notebook used for backups
+UnusedCells.ipynb
