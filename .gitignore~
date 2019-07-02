@@ -3,4 +3,4 @@
 .ipynb_checkpoints
 
 # Ignore images
-img/*
+img/**
