@@ -1,0 +1,6 @@
+### Git Ignore ###
+# Ignore python checkpoints
+.ipynb_checkpoints
+
+# Ignore images
+img/*
