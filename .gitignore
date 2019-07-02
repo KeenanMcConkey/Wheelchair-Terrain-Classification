@@ -3,7 +3,7 @@
 .ipynb_checkpoints
 
 # Ignore images
-img/**
+imgs/**
 
 # Ignore gitignore
 .gitignore
