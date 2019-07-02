@@ -1,10 +1,10 @@
 ### Git Ignore ###
+
 # Ignore python checkpoints
 .ipynb_checkpoints
 
 # Ignore images
 imgs/**
 
-# Ignore gitignore
-.gitignore
-.gitignore~
+# Ignore backups
+*~
