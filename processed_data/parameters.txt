@@ -1,0 +1,6 @@
+# Processed Data
+
+Dataset = set_full
+Cutoff Frequency = Unfiltered
+Data Window = 200
+Trim Size = 13s per side
