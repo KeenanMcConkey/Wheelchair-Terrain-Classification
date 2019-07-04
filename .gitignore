@@ -6,8 +6,11 @@
 # Ignore images
 imgs/**
 
-# Ignore backups
+# Ignore file backups
 *~
+
+# Ignore processed data backups
+processed_data/backup/**
 
 # Ignore notebook used for backups
 UnusedCells.ipynb
