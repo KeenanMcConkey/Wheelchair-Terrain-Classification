@@ -1,0 +1,1262 @@
+# Parameters
+
+Dataset = set_full
+Cutoff Frequency = Unfiltered
+Data Window = 200
+Trim Size = 13s per side
+
+n Features = 10
+Datasets = All
+
+# Extracted Features - Middle 
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 					 Score
+1 	 6 	 Min Z Accel Middle 			 0.067
+2 	 87 	 Mean Square Frequency Y Accel Middle 	 0.060
+3 	 72 	 Mean Square Frequency X Gyro Middle 	 0.053
+4 	 49 	 Max X Accel Middle 			 0.045
+5 	 76 	 Autocorrelation Y Accel Middle 	 0.044
+6 	 1 	 Autocorrelation Z Accel Middle 	 0.043
+7 	 84 	 Std Dev Y Accel Middle 		 0.041
+8 	 81 	 Min Y Accel Middle 			 0.040
+9 	 51 	 Min X Accel Middle 			 0.040
+10 	 45 	 Variance Frequency Z Gyro Middle 	 0.040
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 6 	 Min Z Accel Middle 			 0.067
+2 	 32 	 Excess Kurtosis Z Gyro Middle 		 0.005
+3 	 85 	 Zero Crossing Rate Y Accel Middle 	 0.006
+4 	 87 	 Mean Square Frequency Y Accel Middle 	 0.007
+5 	 5 	 Mean Z Accel Middle 			 0.004
+6 	 40 	 Zero Crossing Rate Z Gyro Middle 	 0.003
+7 	 60 	 Variance Frequency X Accel Middle 	 0.004
+8 	 23 	 Skew Y Gyro Middle 			 0.002
+9 	 45 	 Variance Frequency Z Gyro Middle 	 0.001
+10 	 77 	 Excess Kurtosis Y Accel Middle 	 0.000
+
+
+# Extracted Features - Left
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 55 	 Zero Crossing Rate X Accel Left 	 0.108
+2 	 85 	 Zero Crossing Rate Y Accel Left 	 0.106
+3 	 86 	 Frequency Center Y Accel Left 		 0.095
+4 	 70 	 Zero Crossing Rate X Gyro Left 	 0.082
+5 	 57 	 Mean Square Frequency X Accel Left 	 0.082
+6 	 77 	 Excess Kurtosis Y Accel Left 		 0.080
+7 	 12 	 Mean Square Frequency Z Accel Left 	 0.072
+8 	 87 	 Mean Square Frequency Y Accel Left 	 0.071
+9 	 9 	 Std Dev Z Accel Left 			 0.070
+10 	 14 	 Root Variance Frequency Z Accel Left 	 0.068
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 55 	 Zero Crossing Rate X Accel Left 	 0.108
+2 	 85 	 Zero Crossing Rate Y Accel Left 	 0.062
+3 	 70 	 Zero Crossing Rate X Gyro Left 	 0.059
+4 	 77 	 Excess Kurtosis Y Accel Left 		 0.058
+5 	 41 	 Frequency Center Z Gyro Left 		 0.038
+6 	 86 	 Frequency Center Y Accel Left 		 0.041
+7 	 12 	 Mean Square Frequency Z Accel Left 	 0.040
+8 	 25 	 Zero Crossing Rate Y Gyro Left 	 0.035
+9 	 57 	 Mean Square Frequency X Accel Left 	 0.035
+10 	 17 	 Excess Kurtosis Y Gyro Left 		 0.029
+
+
+# Extracted Features - Right
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 						 Score
+1 	 55 	 Zero Crossing Rate X Accel Right 		 0.156
+2 	 10 	 Zero Crossing Rate Z Accel Right 		 0.119
+3 	 85 	 Zero Crossing Rate Y Accel Right 		 0.108
+4 	 14 	 Root Variance Frequency Z Accel Right 		 0.084
+5 	 13 	 Root Mean Square Frequency Z Accel Right 	 0.084
+6 	 79 	 Max Y Accel Right 				 0.079
+7 	 40 	 Zero Crossing Rate Z Gyro Right 		 0.074
+8 	 56 	 Frequency Center X Accel Right 		 0.071
+9 	 9 	 Std Dev Z Accel Right 				 0.065
+10 	 57 	 Mean Square Frequency X Accel Right 		 0.065
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 55 	 Zero Crossing Rate X Accel Right 	 0.156
+2 	 10 	 Zero Crossing Rate Z Accel Right 	 0.087
+3 	 85 	 Zero Crossing Rate Y Accel Right 	 0.081
+4 	 40 	 Zero Crossing Rate Z Gyro Right 	 0.047
+5 	 26 	 Frequency Center Y Gyro Right 		 0.043
+6 	 56 	 Frequency Center X Accel Right 	 0.034
+7 	 79 	 Max Y Accel Right 			 0.030
+8 	 71 	 Frequency Center X Gyro Right 		 0.022
+9 	 14 	 Root Variance Frequency Z Accel Right 	 0.025
+10 	 86 	 Frequency Center Y Accel Right 	 0.025
+
+
+# FFT - Middle
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 383 	 Y Accel 36.4 Hz 	 0.150
+2 	 389 	 Y Accel 35.4 Hz 	 0.149
+3 	 395 	 Y Accel 34.3 Hz 	 0.140
+4 	 401 	 Y Accel 33.3 Hz 	 0.118
+5 	 377 	 Y Accel 37.4 Hz 	 0.108
+6 	 407 	 Y Accel 32.3 Hz 	 0.090
+7 	 484 	 Z Accel 19.2 Hz 	 0.087
+8 	 490 	 Z Accel 18.2 Hz 	 0.086
+9 	 413 	 Y Accel 31.3 Hz 	 0.070
+10 	 371 	 Y Accel 38.4 Hz 	 0.069
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 383 	 Y Accel 36.4 Hz 	 0.150
+2 	 484 	 Z Accel 19.2 Hz 	 0.049
+3 	 395 	 Y Accel 34.3 Hz 	 0.054
+4 	 389 	 Y Accel 35.4 Hz 	 0.037
+5 	 377 	 Y Accel 37.4 Hz 	 0.026
+6 	 478 	 Z Accel 20.2 Hz 	 0.029
+7 	 401 	 Y Accel 33.3 Hz 	 0.031
+8 	 490 	 Z Accel 18.2 Hz 	 0.029
+9 	 371 	 Y Accel 38.4 Hz 	 0.026
+10 	 442 	 Z Accel 26.3 Hz 	 0.025
+
+
+# FFT - Left
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.207
+2 	 593 	 Y Accel 1.0 Hz 	 0.120
+3 	 594 	 X Accel 1.0 Hz 	 0.109
+4 	 599 	 Y Accel 0.0 Hz 	 0.086
+5 	 600 	 X Accel 0.0 Hz 	 0.071
+6 	 598 	 Z Accel 0.0 Hz 	 0.038
+7 	 588 	 X Accel 2.0 Hz 	 0.030
+8 	 587 	 Y Accel 2.0 Hz 	 0.026
+9 	 581 	 Y Accel 3.0 Hz 	 0.026
+10 	 582 	 X Accel 3.0 Hz 	 0.022
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.207
+2 	 598 	 Z Accel 0.0 Hz 	 0.004
+3 	 576 	 X Accel 4.0 Hz 	 0.003
+4 	 600 	 X Accel 0.0 Hz 	 0.003
+5 	 564 	 X Accel 6.1 Hz 	 0.001
+6 	 596 	 Y Gyro 0.0 Hz 		 0.001
+7 	 581 	 Y Accel 3.0 Hz 	 0.003
+8 	 575 	 Y Accel 4.0 Hz 	 0.001
+9 	 437 	 Y Accel 27.3 Hz 	 0.002
+10 	 593 	 Y Accel 1.0 Hz 	 0.010
+
+
+# FFT - Right
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.199
+2 	 593 	 Y Accel 1.0 Hz 	 0.120
+3 	 594 	 X Accel 1.0 Hz 	 0.104
+4 	 599 	 Y Accel 0.0 Hz 	 0.071
+5 	 600 	 X Accel 0.0 Hz 	 0.052
+6 	 588 	 X Accel 2.0 Hz 	 0.036
+7 	 587 	 Y Accel 2.0 Hz 	 0.030
+8 	 581 	 Y Accel 3.0 Hz 	 0.019
+9 	 582 	 X Accel 3.0 Hz 	 0.017
+10 	 598 	 Z Accel 0.0 Hz 	 0.012
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.199
+2 	 575 	 Y Accel 4.0 Hz 	 0.000
+3 	 596 	 Y Gyro 0.0 Hz 		 0.002
+4 	 597 	 X Gyro 0.0 Hz 		 0.004
+5 	 328 	 Z Accel 45.5 Hz 	 0.002
+6 	 599 	 Y Accel 0.0 Hz 	 0.009
+7 	 376 	 Z Accel 37.4 Hz 	 0.001
+8 	 346 	 Z Accel 42.4 Hz 	 0.001
+9 	 352 	 Z Accel 41.4 Hz 	 0.001
+10 	 598 	 Z Accel 0.0 Hz 	 0.002
+
+
+# PSD Log - Middle
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 261 	 X Gyro 56.0 Hz 	 0.569
+2 	 279 	 X Gyro 53.0 Hz 	 0.558
+3 	 249 	 X Gyro 58.0 Hz 	 0.558
+4 	 291 	 X Gyro 51.0 Hz 	 0.556
+5 	 255 	 X Gyro 57.0 Hz 	 0.554
+6 	 267 	 X Gyro 55.0 Hz 	 0.551
+7 	 273 	 X Gyro 54.0 Hz 	 0.549
+8 	 297 	 X Gyro 50.0 Hz 	 0.547
+9 	 243 	 X Gyro 59.0 Hz 	 0.545
+10 	 285 	 X Gyro 52.0 Hz 	 0.545
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 261 	 X Gyro 56.0 Hz 	 0.569
+2 	 572 	 Y Gyro 4.0 Hz 		 0.288
+3 	 95 	 Y Accel 84.0 Hz 	 0.260
+4 	 554 	 Y Gyro 7.0 Hz 		 0.224
+5 	 390 	 X Accel 35.0 Hz 	 0.234
+6 	 249 	 X Gyro 58.0 Hz 	 0.209
+7 	 560 	 Y Gyro 6.0 Hz 		 0.211
+8 	 65 	 Y Accel 89.0 Hz 	 0.217
+9 	 578 	 Y Gyro 3.0 Hz 		 0.204
+10 	 113 	 Y Accel 81.0 Hz 	 0.216
+
+
+# PSD Log - Left
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 232 	 Z Accel 61.0 Hz 	 0.781
+2 	 220 	 Z Accel 63.0 Hz 	 0.779
+3 	 256 	 Z Accel 57.0 Hz 	 0.777
+4 	 250 	 Z Accel 58.0 Hz 	 0.777
+5 	 226 	 Z Accel 62.0 Hz 	 0.777
+6 	 262 	 Z Accel 56.0 Hz 	 0.773
+7 	 238 	 Z Accel 60.0 Hz 	 0.771
+8 	 244 	 Z Accel 59.0 Hz 	 0.765
+9 	 268 	 Z Accel 55.0 Hz 	 0.740
+10 	 274 	 Z Accel 54.0 Hz 	 0.729
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 232 	 Z Accel 61.0 Hz 	 0.781
+2 	 532 	 Z Accel 11.0 Hz 	 0.192
+3 	 262 	 Z Accel 56.0 Hz 	 0.383
+4 	 220 	 Z Accel 63.0 Hz 	 0.288
+5 	 256 	 Z Accel 57.0 Hz 	 0.256
+6 	 160 	 Z Accel 73.0 Hz 	 0.255
+7 	 268 	 Z Accel 55.0 Hz 	 0.265
+8 	 250 	 Z Accel 58.0 Hz 	 0.252
+9 	 226 	 Z Accel 62.0 Hz 	 0.236
+10 	 118 	 Z Accel 80.0 Hz 	 0.228
+
+
+# PSD Log - Right
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 250 	 Z Accel 58.0 Hz 	 0.597
+2 	 262 	 Z Accel 56.0 Hz 	 0.596
+3 	 256 	 Z Accel 57.0 Hz 	 0.594
+4 	 280 	 Z Accel 53.0 Hz 	 0.576
+5 	 166 	 Z Accel 72.0 Hz 	 0.569
+6 	 160 	 Z Accel 73.0 Hz 	 0.565
+7 	 244 	 Z Accel 59.0 Hz 	 0.565
+8 	 274 	 Z Accel 54.0 Hz 	 0.554
+9 	 268 	 Z Accel 55.0 Hz 	 0.543
+10 	 172 	 Z Accel 71.0 Hz 	 0.531
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 250 	 Z Accel 58.0 Hz 	 0.597
+2 	 160 	 Z Accel 73.0 Hz 	 0.370
+3 	 322 	 Z Accel 46.0 Hz 	 0.265
+4 	 262 	 Z Accel 56.0 Hz 	 0.269
+5 	 166 	 Z Accel 72.0 Hz 	 0.285
+6 	 280 	 Z Accel 53.0 Hz 	 0.247
+7 	 70 	 Z Accel 88.0 Hz 	 0.252
+8 	 256 	 Z Accel 57.0 Hz 	 0.247
+9 	 154 	 Z Accel 74.0 Hz 	 0.244
+10 	 46 	 Z Accel 92.0 Hz 	 0.237
+
+
+# Extracted Feat - Middle Power
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 					 Score
+1 	 6 	 Min Z Accel Middle 			 0.112
+2 	 41 	 Frequency Center Z Gyro Middle 	 0.086
+3 	 81 	 Min Y Accel Middle 			 0.073
+4 	 87 	 Mean Square Frequency Y Accel Middle 	 0.072
+5 	 72 	 Mean Square Frequency X Gyro Middle 	 0.071
+6 	 45 	 Variance Frequency Z Gyro Middle 	 0.070
+7 	 79 	 Max Y Accel Middle 			 0.064
+8 	 76 	 Autocorrelation Y Accel Middle 	 0.062
+9 	 12 	 Mean Square Frequency Z Accel Middle 	 0.055
+10 	 1 	 Autocorrelation Z Accel Middle 	 0.052
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 6 	 Min Z Accel Middle 			 0.112
+2 	 41 	 Frequency Center Z Gyro Middle 	 0.029
+3 	 5 	 Mean Z Accel Middle 			 0.029
+4 	 86 	 Frequency Center Y Accel Middle 	 0.006
+5 	 31 	 Autocorrelation Z Gyro Middle 		 0.009
+6 	 87 	 Mean Square Frequency Y Accel Middle 	 0.014
+7 	 2 	 Excess Kurtosis Z Accel Middle 	 0.009
+8 	 26 	 Frequency Center Y Gyro Middle 	 0.005
+9 	 77 	 Excess Kurtosis Y Accel Middle 	 0.002
+10 	 12 	 Mean Square Frequency Z Accel Middle 	 0.002
+
+
+# Extracted Feat - Middle Manual
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 						 Score
+1 	 51 	 Min X Accel Middle 				 0.108
+2 	 49 	 Max X Accel Middle 				 0.094
+3 	 60 	 Variance Frequency X Accel Middle 		 0.088
+4 	 1 	 Autocorrelation Z Accel Middle 		 0.084
+5 	 56 	 Frequency Center X Accel Middle 		 0.082
+6 	 46 	 Autocorrelation X Accel Middle 		 0.082
+7 	 57 	 Mean Square Frequency X Accel Middle 		 0.082
+8 	 59 	 Root Variance Frequency X Accel Middle 	 0.077
+9 	 58 	 Root Mean Square Frequency X Accel Middle 	 0.077
+10 	 16 	 Autocorrelation Y Gyro Middle 			 0.077
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 51 	 Min X Accel Middle 			 0.108
+2 	 31 	 Autocorrelation Z Gyro Middle 		 0.028
+3 	 25 	 Zero Crossing Rate Y Gyro Middle 	 0.026
+4 	 85 	 Zero Crossing Rate Y Accel Middle 	 0.019
+5 	 60 	 Variance Frequency X Accel Middle 	 0.015
+6 	 16 	 Autocorrelation Y Gyro Middle 		 0.013
+7 	 23 	 Skew Y Gyro Middle 			 0.012
+8 	 42 	 Mean Square Frequency Z Gyro Middle 	 0.011
+9 	 40 	 Zero Crossing Rate Z Gyro Middle 	 0.009
+10 	 75 	 Variance Frequency X Gyro Middle 	 0.010
+
+
+# FFT - Middle Power
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 383 	 Y Accel 36.4 Hz 	 0.313
+2 	 389 	 Y Accel 35.4 Hz 	 0.313
+3 	 395 	 Y Accel 34.3 Hz 	 0.289
+4 	 401 	 Y Accel 33.3 Hz 	 0.238
+5 	 377 	 Y Accel 37.4 Hz 	 0.225
+6 	 407 	 Y Accel 32.3 Hz 	 0.178
+7 	 490 	 Z Accel 18.2 Hz 	 0.167
+8 	 484 	 Z Accel 19.2 Hz 	 0.162
+9 	 371 	 Y Accel 38.4 Hz 	 0.137
+10 	 413 	 Y Accel 31.3 Hz 	 0.136
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 383 	 Y Accel 36.4 Hz 	 0.313
+2 	 395 	 Y Accel 34.3 Hz 	 0.152
+3 	 389 	 Y Accel 35.4 Hz 	 0.147
+4 	 484 	 Z Accel 19.2 Hz 	 0.117
+5 	 377 	 Y Accel 37.4 Hz 	 0.138
+6 	 401 	 Y Accel 33.3 Hz 	 0.127
+7 	 490 	 Z Accel 18.2 Hz 	 0.100
+8 	 371 	 Y Accel 38.4 Hz 	 0.087
+9 	 407 	 Y Accel 32.3 Hz 	 0.083
+10 	 478 	 Z Accel 20.2 Hz 	 0.072
+
+
+# FFT - Middle Manual
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 442 	 Z Accel 26.3 Hz 	 0.055
+2 	 436 	 Z Accel 27.3 Hz 	 0.049
+3 	 448 	 Z Accel 25.3 Hz 	 0.048
+4 	 454 	 Z Accel 24.2 Hz 	 0.045
+5 	 430 	 Z Accel 28.3 Hz 	 0.042
+6 	 12 	 X Accel 99.0 Hz 	 0.038
+7 	 466 	 Z Accel 22.2 Hz 	 0.037
+8 	 460 	 Z Accel 23.2 Hz 	 0.037
+9 	 24 	 X Accel 97.0 Hz 	 0.032
+10 	 42 	 X Accel 93.9 Hz 	 0.030
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 442 	 Z Accel 26.3 Hz 	 0.055
+2 	 418 	 Z Accel 30.3 Hz 	 0.028
+3 	 454 	 Z Accel 24.2 Hz 	 0.032
+4 	 406 	 Z Accel 32.3 Hz 	 0.027
+5 	 436 	 Z Accel 27.3 Hz 	 0.032
+6 	 430 	 Z Accel 28.3 Hz 	 0.030
+7 	 12 	 X Accel 99.0 Hz 	 0.028
+8 	 448 	 Z Accel 25.3 Hz 	 0.029
+9 	 412 	 Z Accel 31.3 Hz 	 0.024
+10 	 595 	 Z Gyro 0.0 Hz 		 0.020
+
+
+# PSD Log - Middle Power
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 500 	 Y Gyro 16.0 Hz 	 0.820
+2 	 494 	 Y Gyro 17.0 Hz 	 0.816
+3 	 488 	 Y Gyro 18.0 Hz 	 0.791
+4 	 482 	 Y Gyro 19.0 Hz 	 0.787
+5 	 506 	 Y Gyro 15.0 Hz 	 0.771
+6 	 512 	 Y Gyro 14.0 Hz 	 0.756
+7 	 524 	 Y Gyro 12.0 Hz 	 0.742
+8 	 207 	 X Gyro 65.0 Hz 	 0.735
+9 	 496 	 Z Accel 17.0 Hz 	 0.733
+10 	 518 	 Y Gyro 13.0 Hz 	 0.732
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 500 	 Y Gyro 16.0 Hz 	 0.820
+2 	 390 	 X Accel 35.0 Hz 	 0.254
+3 	 201 	 X Gyro 66.0 Hz 	 0.247
+4 	 572 	 Y Gyro 4.0 Hz 		 0.277
+5 	 482 	 Y Gyro 19.0 Hz 	 0.281
+6 	 219 	 X Gyro 63.0 Hz 	 0.258
+7 	 536 	 Y Gyro 10.0 Hz 	 0.249
+8 	 396 	 X Accel 34.0 Hz 	 0.247
+9 	 494 	 Y Gyro 17.0 Hz 	 0.252
+10 	 207 	 X Gyro 65.0 Hz 	 0.242
+
+
+# PSD Log - Middle Manual
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 53 	 Y Accel 91.0 Hz 	 0.628
+2 	 23 	 Y Accel 96.0 Hz 	 0.621
+3 	 29 	 Y Accel 95.0 Hz 	 0.615
+4 	 59 	 Y Accel 90.0 Hz 	 0.609
+5 	 17 	 Y Accel 97.0 Hz 	 0.606
+6 	 35 	 Y Accel 94.0 Hz 	 0.605
+7 	 41 	 Y Accel 93.0 Hz 	 0.601
+8 	 47 	 Y Accel 92.0 Hz 	 0.597
+9 	 11 	 Y Accel 98.0 Hz 	 0.592
+10 	 65 	 Y Accel 89.0 Hz 	 0.592
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 53 	 Y Accel 91.0 Hz 	 0.628
+2 	 584 	 Y Gyro 2.0 Hz 		 0.324
+3 	 23 	 Y Accel 96.0 Hz 	 0.245
+4 	 554 	 Y Gyro 7.0 Hz 		 0.268
+5 	 30 	 X Accel 95.0 Hz 	 0.215
+6 	 542 	 Y Gyro 9.0 Hz 		 0.239
+7 	 261 	 X Gyro 56.0 Hz 	 0.220
+8 	 560 	 Y Gyro 6.0 Hz 		 0.219
+9 	 66 	 X Accel 89.0 Hz 	 0.237
+10 	 11 	 Y Accel 98.0 Hz 	 0.212
+
+
+# Extracted Features - Straight Middle
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 					 Score
+1 	 6 	 Min Z Accel Middle 			 0.150
+2 	 57 	 Mean Square Frequency X Accel Middle 	 0.144
+3 	 32 	 Excess Kurtosis Z Gyro Middle 		 0.131
+4 	 81 	 Min Y Accel Middle 			 0.129
+5 	 60 	 Variance Frequency X Accel Middle 	 0.119
+6 	 41 	 Frequency Center Z Gyro Middle 	 0.109
+7 	 62 	 Excess Kurtosis X Gyro Middle 		 0.098
+8 	 83 	 Skew Y Accel Middle 			 0.094
+9 	 79 	 Max Y Accel Middle 			 0.093
+10 	 19 	 Max Y Gyro Middle 			 0.092
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 6 	 Min Z Accel Middle 			 0.150
+2 	 32 	 Excess Kurtosis Z Gyro Middle 		 0.036
+3 	 57 	 Mean Square Frequency X Accel Middle 	 0.028
+4 	 68 	 Skew X Gyro Middle 			 0.020
+5 	 85 	 Zero Crossing Rate Y Accel Middle 	 0.019
+6 	 80 	 Mean Y Accel Middle 			 0.013
+7 	 41 	 Frequency Center Z Gyro Middle 	 0.024
+8 	 60 	 Variance Frequency X Accel Middle 	 0.007
+9 	 38 	 Skew Z Gyro Middle 			 0.007
+10 	 62 	 Excess Kurtosis X Gyro Middle 		 0.012
+
+
+# Extracted Features - Donut Middle
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 					 Score
+1 	 40 	 Zero Crossing Rate Z Gyro Middle 	 0.104
+2 	 72 	 Mean Square Frequency X Gyro Middle 	 0.094
+3 	 6 	 Min Z Accel Middle 			 0.091
+4 	 51 	 Min X Accel Middle 			 0.091
+5 	 41 	 Frequency Center Z Gyro Middle 	 0.087
+6 	 81 	 Min Y Accel Middle 			 0.085
+7 	 47 	 Excess Kurtosis X Accel Middle 	 0.075
+8 	 84 	 Std Dev Y Accel Middle 		 0.074
+9 	 79 	 Max Y Accel Middle 			 0.074
+10 	 53 	 Skew X Accel Middle 			 0.074
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 40 	 Zero Crossing Rate Z Gyro Middle 	 0.104
+2 	 72 	 Mean Square Frequency X Gyro Middle 	 0.056
+3 	 53 	 Skew X Accel Middle 			 0.035
+4 	 41 	 Frequency Center Z Gyro Middle 	 0.022
+5 	 15 	 Variance Frequency Z Accel Middle 	 0.023
+6 	 6 	 Min Z Accel Middle 			 0.018
+7 	 85 	 Zero Crossing Rate Y Accel Middle 	 0.013
+8 	 68 	 Skew X Gyro Middle 			 0.008
+9 	 47 	 Excess Kurtosis X Accel Middle 	 0.003
+10 	 23 	 Skew Y Gyro Middle 			 0.002
+
+
+# Extracted Features - Figure 8 Middle
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 					 Score
+1 	 6 	 Min Z Accel Middle 			 0.098
+2 	 87 	 Mean Square Frequency Y Accel Middle 	 0.093
+3 	 72 	 Mean Square Frequency X Gyro Middle 	 0.084
+4 	 1 	 Autocorrelation Z Accel Middle 	 0.075
+5 	 49 	 Max X Accel Middle 			 0.061
+6 	 12 	 Mean Square Frequency Z Accel Middle 	 0.059
+7 	 16 	 Autocorrelation Y Gyro Middle 		 0.059
+8 	 84 	 Std Dev Y Accel Middle 		 0.059
+9 	 76 	 Autocorrelation Y Accel Middle 	 0.058
+10 	 51 	 Min X Accel Middle 			 0.055
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 6 	 Min Z Accel Middle 			 0.098
+2 	 31 	 Autocorrelation Z Gyro Middle 		 0.023
+3 	 45 	 Variance Frequency Z Gyro Middle 	 0.027
+4 	 87 	 Mean Square Frequency Y Accel Middle 	 0.028
+5 	 62 	 Excess Kurtosis X Gyro Middle 		 0.010
+6 	 85 	 Zero Crossing Rate Y Accel Middle 	 0.013
+7 	 12 	 Mean Square Frequency Z Accel Middle 	 0.010
+8 	 5 	 Mean Z Accel Middle 			 0.006
+9 	 60 	 Variance Frequency X Accel Middle 	 0.007
+10 	 23 	 Skew Y Gyro Middle 			 0.001
+
+
+# Extracted Features - Straight Left
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 					 Score
+1 	 75 	 Variance Frequency X Gyro Left 	 0.682
+2 	 49 	 Max X Accel Left 			 0.500
+3 	 81 	 Min Y Accel Left 			 0.486
+4 	 71 	 Frequency Center X Gyro Left 		 0.471
+5 	 47 	 Excess Kurtosis X Accel Left 		 0.436
+6 	 82 	 Root Mean Squared Y Accel Left 	 0.421
+7 	 78 	 L2 Norm Y Accel Left 			 0.421
+8 	 76 	 Autocorrelation Y Accel Left 		 0.421
+9 	 27 	 Mean Square Frequency Y Gyro Left 	 0.421
+10 	 72 	 Mean Square Frequency X Gyro Left 	 0.416
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 75 	 Variance Frequency X Gyro Left 	 0.682
+2 	 49 	 Max X Accel Left 			 0.240
+3 	 56 	 Frequency Center X Accel Left 		 0.245
+4 	 81 	 Min Y Accel Left 			 0.266
+5 	 27 	 Mean Square Frequency Y Gyro Left 	 0.260
+6 	 47 	 Excess Kurtosis X Accel Left 		 0.218
+7 	 32 	 Excess Kurtosis Z Gyro Left 		 0.173
+8 	 48 	 L2 Norm X Accel Left 			 0.174
+9 	 72 	 Mean Square Frequency X Gyro Left 	 0.180
+10 	 22 	 Root Mean Squared Y Gyro Left 		 0.177
+
+
+# Extracted Features - Donut Left
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 					 Score
+1 	 77 	 Excess Kurtosis Y Accel Left 		 0.202
+2 	 30 	 Variance Frequency Y Gyro Left 	 0.197
+3 	 87 	 Mean Square Frequency Y Accel Left 	 0.188
+4 	 55 	 Zero Crossing Rate X Accel Left 	 0.184
+5 	 72 	 Mean Square Frequency X Gyro Left 	 0.182
+6 	 32 	 Excess Kurtosis Z Gyro Left 		 0.182
+7 	 12 	 Mean Square Frequency Z Accel Left 	 0.182
+8 	 27 	 Mean Square Frequency Y Gyro Left 	 0.179
+9 	 75 	 Variance Frequency X Gyro Left 	 0.177
+10 	 85 	 Zero Crossing Rate Y Accel Left 	 0.175
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 77 	 Excess Kurtosis Y Accel Left 		 0.202
+2 	 25 	 Zero Crossing Rate Y Gyro Left 	 0.126
+3 	 87 	 Mean Square Frequency Y Accel Left 	 0.127
+4 	 32 	 Excess Kurtosis Z Gyro Left 		 0.118
+5 	 55 	 Zero Crossing Rate X Accel Left 	 0.111
+6 	 12 	 Mean Square Frequency Z Accel Left 	 0.101
+7 	 30 	 Variance Frequency Y Gyro Left 	 0.099
+8 	 75 	 Variance Frequency X Gyro Left 	 0.092
+9 	 85 	 Zero Crossing Rate Y Accel Left 	 0.082
+10 	 72 	 Mean Square Frequency X Gyro Left 	 0.082
+
+
+# Extracted Features - Figure 8 Left
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 						 Score
+1 	 85 	 Zero Crossing Rate Y Accel Left 		 0.176
+2 	 55 	 Zero Crossing Rate X Accel Left 		 0.158
+3 	 57 	 Mean Square Frequency X Accel Left 		 0.126
+4 	 86 	 Frequency Center Y Accel Left 			 0.112
+5 	 77 	 Excess Kurtosis Y Accel Left 			 0.109
+6 	 14 	 Root Variance Frequency Z Accel Left 		 0.101
+7 	 13 	 Root Mean Square Frequency Z Accel Left 	 0.101
+8 	 87 	 Mean Square Frequency Y Accel Left 		 0.096
+9 	 12 	 Mean Square Frequency Z Accel Left 		 0.092
+10 	 70 	 Zero Crossing Rate X Gyro Left 		 0.090
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 85 	 Zero Crossing Rate Y Accel Left 	 0.176
+2 	 55 	 Zero Crossing Rate X Accel Left 	 0.111
+3 	 77 	 Excess Kurtosis Y Accel Left 		 0.083
+4 	 57 	 Mean Square Frequency X Accel Left 	 0.063
+5 	 70 	 Zero Crossing Rate X Gyro Left 	 0.064
+6 	 25 	 Zero Crossing Rate Y Gyro Left 	 0.057
+7 	 12 	 Mean Square Frequency Z Accel Left 	 0.052
+8 	 17 	 Excess Kurtosis Y Gyro Left 		 0.051
+9 	 86 	 Frequency Center Y Accel Left 		 0.052
+10 	 41 	 Frequency Center Z Gyro Left 		 0.049
+
+
+# FFT - Middle Straight
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 490 	 Z Accel 18.2 Hz 	 0.234
+2 	 383 	 Y Accel 36.4 Hz 	 0.223
+3 	 395 	 Y Accel 34.3 Hz 	 0.217
+4 	 407 	 Y Accel 32.3 Hz 	 0.191
+5 	 389 	 Y Accel 35.4 Hz 	 0.184
+6 	 401 	 Y Accel 33.3 Hz 	 0.166
+7 	 484 	 Z Accel 19.2 Hz 	 0.164
+8 	 413 	 Y Accel 31.3 Hz 	 0.151
+9 	 371 	 Y Accel 38.4 Hz 	 0.143
+10 	 419 	 Y Accel 30.3 Hz 	 0.129
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 490 	 Z Accel 18.2 Hz 	 0.234
+2 	 454 	 Z Accel 24.2 Hz 	 0.079
+3 	 389 	 Y Accel 35.4 Hz 	 0.114
+4 	 383 	 Y Accel 36.4 Hz 	 0.077
+5 	 466 	 Z Accel 22.2 Hz 	 0.060
+6 	 395 	 Y Accel 34.3 Hz 	 0.070
+7 	 78 	 X Accel 87.9 Hz 	 0.060
+8 	 484 	 Z Accel 19.2 Hz 	 0.067
+9 	 478 	 Z Accel 20.2 Hz 	 0.057
+10 	 371 	 Y Accel 38.4 Hz 	 0.061
+
+
+# FFT - Middle Donut
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 389 	 Y Accel 35.4 Hz 	 0.205
+2 	 383 	 Y Accel 36.4 Hz 	 0.205
+3 	 395 	 Y Accel 34.3 Hz 	 0.192
+4 	 401 	 Y Accel 33.3 Hz 	 0.186
+5 	 377 	 Y Accel 37.4 Hz 	 0.131
+6 	 407 	 Y Accel 32.3 Hz 	 0.118
+7 	 371 	 Y Accel 38.4 Hz 	 0.100
+8 	 599 	 Y Accel 0.0 Hz 	 0.087
+9 	 365 	 Y Accel 39.4 Hz 	 0.074
+10 	 490 	 Z Accel 18.2 Hz 	 0.069
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 389 	 Y Accel 35.4 Hz 	 0.205
+2 	 595 	 Z Gyro 0.0 Hz 		 0.050
+3 	 383 	 Y Accel 36.4 Hz 	 0.104
+4 	 401 	 Y Accel 33.3 Hz 	 0.073
+5 	 395 	 Y Accel 34.3 Hz 	 0.064
+6 	 377 	 Y Accel 37.4 Hz 	 0.045
+7 	 407 	 Y Accel 32.3 Hz 	 0.044
+8 	 371 	 Y Accel 38.4 Hz 	 0.036
+9 	 484 	 Z Accel 19.2 Hz 	 0.037
+10 	 365 	 Y Accel 39.4 Hz 	 0.036
+
+
+# FFT - Middle Figure
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 389 	 Y Accel 35.4 Hz 	 0.144
+2 	 383 	 Y Accel 36.4 Hz 	 0.138
+3 	 395 	 Y Accel 34.3 Hz 	 0.138
+4 	 401 	 Y Accel 33.3 Hz 	 0.114
+5 	 377 	 Y Accel 37.4 Hz 	 0.107
+6 	 484 	 Z Accel 19.2 Hz 	 0.096
+7 	 407 	 Y Accel 32.3 Hz 	 0.089
+8 	 490 	 Z Accel 18.2 Hz 	 0.087
+9 	 413 	 Y Accel 31.3 Hz 	 0.072
+10 	 496 	 Z Accel 17.2 Hz 	 0.063
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 389 	 Y Accel 35.4 Hz 	 0.144
+2 	 484 	 Z Accel 19.2 Hz 	 0.046
+3 	 383 	 Y Accel 36.4 Hz 	 0.059
+4 	 395 	 Y Accel 34.3 Hz 	 0.049
+5 	 490 	 Z Accel 18.2 Hz 	 0.032
+6 	 377 	 Y Accel 37.4 Hz 	 0.039
+7 	 401 	 Y Accel 33.3 Hz 	 0.037
+8 	 478 	 Z Accel 20.2 Hz 	 0.032
+9 	 436 	 Z Accel 27.3 Hz 	 0.029
+10 	 371 	 Y Accel 38.4 Hz 	 0.030
+
+
+# FFT - Right Straight
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.822
+2 	 600 	 X Accel 0.0 Hz 	 0.731
+3 	 599 	 Y Accel 0.0 Hz 	 0.574
+4 	 594 	 X Accel 1.0 Hz 	 0.569
+5 	 593 	 Y Accel 1.0 Hz 	 0.543
+6 	 588 	 X Accel 2.0 Hz 	 0.272
+7 	 587 	 Y Accel 2.0 Hz 	 0.198
+8 	 581 	 Y Accel 3.0 Hz 	 0.162
+9 	 598 	 Z Accel 0.0 Hz 	 0.107
+10 	 346 	 Z Accel 42.4 Hz 	 0.067
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.822
+2 	 599 	 Y Accel 0.0 Hz 	 0.285
+3 	 600 	 X Accel 0.0 Hz 	 0.140
+4 	 588 	 X Accel 2.0 Hz 	 0.090
+5 	 593 	 Y Accel 1.0 Hz 	 0.110
+6 	 581 	 Y Accel 3.0 Hz 	 0.083
+7 	 594 	 X Accel 1.0 Hz 	 0.105
+8 	 598 	 Z Accel 0.0 Hz 	 0.067
+9 	 587 	 Y Accel 2.0 Hz 	 0.080
+10 	 346 	 Z Accel 42.4 Hz 	 0.047
+
+
+# FFT - Right Donut
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 595 	 Z Gyro 0.0 Hz	 	 0.720
+2 	 599 	 Y Accel 0.0 Hz 	 0.376
+3 	 600 	 X Accel 0.0 Hz 	 0.352
+4 	 594 	 X Accel 1.0 Hz 	 0.245
+5 	 593 	 Y Accel 1.0 Hz 	 0.218
+6 	 587 	 Y Accel 2.0 Hz 	 0.116
+7 	 588 	 X Accel 2.0 Hz 	 0.101
+8 	 598 	 Z Accel 0.0 Hz 	 0.062
+9 	 581 	 Y Accel 3.0 Hz 	 0.024
+10 	 596 	 Y Gyro 0.0 Hz 		 0.019
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.720
+2 	 600 	 X Accel 0.0 Hz 	 0.212
+3 	 596 	 Y Gyro 0.0 Hz 		 0.005
+4 	 598 	 Z Accel 0.0 Hz 	 0.017
+5 	 593 	 Y Accel 1.0 Hz 	 0.020
+6 	 581 	 Y Accel 3.0 Hz 	 0.001
+7 	 594 	 X Accel 1.0 Hz 	 0.026
+8 	 399 	 X Gyro 33.3 Hz 	 -0.000
+9 	 401 	 Y Accel 33.3 Hz 	 -0.000
+10 	 599 	 Y Accel 0.0 Hz 	 0.034
+
+
+# FFT - Right Figure 8
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.183
+2 	 593 	 Y Accel 1.0 Hz 	 0.100
+3 	 594 	 X Accel 1.0 Hz 	 0.091
+4 	 599 	 Y Accel 0.0 Hz 	 0.059
+5 	 600 	 X Accel 0.0 Hz 	 0.054
+6 	 587 	 Y Accel 2.0 Hz 	 0.037
+7 	 588 	 X Accel 2.0 Hz 	 0.037
+8 	 581 	 Y Accel 3.0 Hz 	 0.031
+9 	 582 	 X Accel 3.0 Hz 	 0.021
+10 	 598 	 Z Accel 0.0 Hz 	 0.015
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.183
+2 	 328 	 Z Accel 45.5 Hz 	 0.001
+3 	 597 	 X Gyro 0.0 Hz 		 0.002
+4 	 581 	 Y Accel 3.0 Hz 	 0.007
+5 	 596 	 Y Gyro 0.0 Hz 		 0.004
+6 	 582 	 X Accel 3.0 Hz 	 0.003
+7 	 376 	 Z Accel 37.4 Hz 	 0.002
+8 	 598 	 Z Accel 0.0 Hz 	 0.001
+9 	 364 	 Z Accel 39.4 Hz 	 0.001
+10 	 600 	 X Accel 0.0 Hz 	 0.002
+
+
+# PSD Log - Middle Straight
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 342 	 X Accel 43.0 Hz 	 0.736
+2 	 279 	 X Gyro 53.0 Hz 	 0.719
+3 	 285 	 X Gyro 52.0 Hz 	 0.713
+4 	 249 	 X Gyro 58.0 Hz 	 0.700
+5 	 273 	 X Gyro 54.0 Hz 	 0.691
+6 	 77 	 Y Accel 87.0 Hz 	 0.685
+7 	 327 	 X Gyro 45.0 Hz 	 0.685
+8 	 333 	 X Gyro 44.0 Hz 	 0.683
+9 	 507 	 X Gyro 15.0 Hz 	 0.681
+10 	 261 	 X Gyro 56.0 Hz 	 0.679
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 342 	 X Accel 43.0 Hz 	 0.736
+2 	 578 	 Y Gyro 3.0 Hz 		 0.245
+3 	 57 	 X Gyro 90.0 Hz 	 0.279
+4 	 534 	 X Accel 11.0 Hz 	 0.231
+5 	 279 	 X Gyro 53.0 Hz 	 0.223
+6 	 507 	 X Gyro 15.0 Hz 	 0.208
+7 	 285 	 X Gyro 52.0 Hz 	 0.167
+8 	 572 	 Y Gyro 4.0 Hz 		 0.170
+9 	 73 	 Z Gyro 87.0 Hz 	 0.173
+10 	 162 	 X Accel 73.0 Hz 	 0.167
+
+
+# PSD Log - Middle Donut
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 279 	 X Gyro 53.0 Hz 	 0.705
+2 	 267 	 X Gyro 55.0 Hz 	 0.704
+3 	 225 	 X Gyro 62.0 Hz 	 0.697
+4 	 291 	 X Gyro 51.0 Hz 	 0.684
+5 	 261 	 X Gyro 56.0 Hz 	 0.684
+6 	 243 	 X Gyro 59.0 Hz 	 0.680
+7 	 213 	 X Gyro 64.0 Hz 	 0.670
+8 	 303 	 X Gyro 49.0 Hz 	 0.669
+9 	 273 	 X Gyro 54.0 Hz 	 0.669
+10 	 249 	 X Gyro 58.0 Hz 	 0.662
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 279 	 X Gyro 53.0 Hz 	 0.705
+2 	 572 	 Y Gyro 4.0 Hz 		 0.338
+3 	 45 	 X Gyro 92.0 Hz 	 0.353
+4 	 225 	 X Gyro 62.0 Hz 	 0.325
+5 	 539 	 Y Accel 10.0 Hz 	 0.299
+6 	 267 	 X Gyro 55.0 Hz 	 0.309
+7 	 95 	 Y Accel 84.0 Hz 	 0.283
+8 	 560 	 Y Gyro 6.0 Hz 		 0.290
+9 	 261 	 X Gyro 56.0 Hz 	 0.288
+10 	 101 	 Y Accel 83.0 Hz 	 0.272
+
+
+# PSD Log - Middle Figure 8
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 261 	 X Gyro 56.0 Hz 	 0.604
+2 	 291 	 X Gyro 51.0 Hz 	 0.597
+3 	 255 	 X Gyro 57.0 Hz 	 0.597
+4 	 285 	 X Gyro 52.0 Hz 	 0.591
+5 	 297 	 X Gyro 50.0 Hz 	 0.589
+6 	 279 	 X Gyro 53.0 Hz 	 0.582
+7 	 249 	 X Gyro 58.0 Hz 	 0.581
+8 	 267 	 X Gyro 55.0 Hz 	 0.581
+9 	 273 	 X Gyro 54.0 Hz 	 0.576
+10 	 243 	 X Gyro 59.0 Hz 	 0.564
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 261 	 X Gyro 56.0 Hz 	 0.604
+2 	 560 	 Y Gyro 6.0 Hz 		 0.339
+3 	 59 	 Y Accel 90.0 Hz 	 0.303
+4 	 584 	 Y Gyro 2.0 Hz 		 0.260
+5 	 119 	 Y Accel 80.0 Hz 	 0.294
+6 	 554 	 Y Gyro 7.0 Hz 		 0.265
+7 	 249 	 X Gyro 58.0 Hz 	 0.282
+8 	 95 	 Y Accel 84.0 Hz 	 0.256
+9 	 566 	 Y Gyro 5.0 Hz 		 0.258
+10 	 291 	 X Gyro 51.0 Hz 	 0.262
+
+
+# PSD Log - Left Straight
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 280 	 Z Accel 53.0 Hz 	 1.561
+2 	 225 	 X Gyro 62.0 Hz 	 1.528
+3 	 220 	 Z Accel 63.0 Hz 	 1.481
+4 	 274 	 Z Accel 54.0 Hz 	 1.476
+5 	 387 	 X Gyro 35.0 Hz 	 1.443
+6 	 441 	 X Gyro 26.0 Hz 	 1.433
+7 	 465 	 X Gyro 22.0 Hz 	 1.390
+8 	 538 	 Z Accel 10.0 Hz 	 1.386
+9 	 405 	 X Gyro 32.0 Hz 	 1.370
+10 	 244 	 Z Accel 59.0 Hz 	 1.369
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 280 	 Z Accel 53.0 Hz 	 1.561
+2 	 566 	 Y Gyro 5.0 Hz 		 0.440
+3 	 225 	 X Gyro 62.0 Hz 	 0.589
+4 	 257 	 Y Accel 57.0 Hz 	 0.540
+5 	 274 	 Z Accel 54.0 Hz 	 0.499
+6 	 387 	 X Gyro 35.0 Hz 	 0.489
+7 	 562 	 Z Accel 6.0 Hz 	 0.453
+8 	 236 	 Y Gyro 60.0 Hz 	 0.441
+9 	 595 	 Z Gyro 0.0 Hz 		 0.430
+10 	 426 	 X Accel 29.0 Hz 	 0.443
+
+
+# PSD Log - Left Donut
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 208 	 Z Accel 65.0 Hz 	 1.023
+2 	 232 	 Z Accel 61.0 Hz 	 0.951
+3 	 226 	 Z Accel 62.0 Hz 	 0.923
+4 	 274 	 Z Accel 54.0 Hz 	 0.890
+5 	 268 	 Z Accel 55.0 Hz 	 0.886
+6 	 262 	 Z Accel 56.0 Hz 	 0.855
+7 	 214 	 Z Accel 64.0 Hz 	 0.842
+8 	 256 	 Z Accel 57.0 Hz 	 0.827
+9 	 244 	 Z Accel 59.0 Hz 	 0.824
+10 	 238 	 Z Accel 60.0 Hz 	 0.812
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 208 	 Z Accel 65.0 Hz 	 1.023
+2 	 268 	 Z Accel 55.0 Hz 	 0.320
+3 	 232 	 Z Accel 61.0 Hz 	 0.368
+4 	 142 	 Z Accel 76.0 Hz 	 0.322
+5 	 496 	 Z Accel 17.0 Hz 	 0.340
+6 	 226 	 Z Accel 62.0 Hz 	 0.410
+7 	 274 	 Z Accel 54.0 Hz 	 0.369
+8 	 256 	 Z Accel 57.0 Hz 	 0.333
+9 	 214 	 Z Accel 64.0 Hz 	 0.320
+10 	 244 	 Z Accel 59.0 Hz 	 0.321
+
+
+# PSD Log - Left Figure 8
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 220 	 Z Accel 63.0 Hz 	 0.826
+2 	 250 	 Z Accel 58.0 Hz 	 0.809
+3 	 256 	 Z Accel 57.0 Hz 	 0.808
+4 	 238 	 Z Accel 60.0 Hz 	 0.804
+5 	 226 	 Z Accel 62.0 Hz 	 0.785
+6 	 232 	 Z Accel 61.0 Hz 	 0.783
+7 	 244 	 Z Accel 59.0 Hz 	 0.782
+8 	 262 	 Z Accel 56.0 Hz 	 0.778
+9 	 268 	 Z Accel 55.0 Hz 	 0.736
+10 	 214 	 Z Accel 64.0 Hz 	 0.734
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 220 	 Z Accel 63.0 Hz 	 0.826
+2 	 118 	 Z Accel 80.0 Hz 	 0.198
+3 	 256 	 Z Accel 57.0 Hz 	 0.386
+4 	 250 	 Z Accel 58.0 Hz 	 0.276
+5 	 160 	 Z Accel 73.0 Hz 	 0.226
+6 	 238 	 Z Accel 60.0 Hz 	 0.278
+7 	 262 	 Z Accel 56.0 Hz 	 0.254
+8 	 226 	 Z Accel 62.0 Hz 	 0.226
+9 	 274 	 Z Accel 54.0 Hz 	 0.212
+10 	 130 	 Z Accel 78.0 Hz 	 0.213
+
+
+# Extracted Features - Right Straight
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 					 Score
+1 	 2 	 Excess Kurtosis Z Accel Right 		 0.819
+2 	 25 	 Zero Crossing Rate Y Gyro Right 	 0.572
+3 	 85 	 Zero Crossing Rate Y Accel Right 	 0.541
+4 	 9 	 Std Dev Z Accel Right 			 0.540
+5 	 1 	 Autocorrelation Z Accel Right 		 0.538
+6 	 8 	 Skew Z Accel Right 		 0.515
+7 	 62 	 Excess Kurtosis X Gyro Right 		 0.500
+8 	 45 	 Variance Frequency Z Gyro Right 	 0.490
+9 	 7 	 Root Mean Squared Z Accel Right 	 0.486
+10 	 53 	 Skew X Accel Right 			 0.483
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 2 	 Excess Kurtosis Z Accel Right 		 0.819
+2 	 25 	 Zero Crossing Rate Y Gyro Right 	 0.321
+3 	 1 	 Autocorrelation Z Accel Right 		 0.287
+4 	 29 	 Root Variance Frequency Y Gyro Right 	 0.223
+5 	 62 	 Excess Kurtosis X Gyro Right 		 0.235
+6 	 53 	 Skew X Accel Right 			 0.210
+7 	 45 	 Variance Frequency Z Gyro Right 	 0.214
+8 	 60 	 Variance Frequency X Accel Right 	 0.211
+9 	 8 	 Skew Z Accel Right 			 0.182
+10 	 85 	 Zero Crossing Rate Y Accel Right 	 0.190
+
+
+# Extracted Features - Right Donut
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 					 Score
+1 	 70 	 Zero Crossing Rate X Gyro Right 	 0.340
+2 	 85 	 Zero Crossing Rate Y Accel Right 	 0.312
+3 	 25 	 Zero Crossing Rate Y Gyro Right 	 0.244
+4 	 2 	 Excess Kurtosis Z Accel Right 		 0.224
+5 	 42 	 Mean Square Frequency Z Gyro Right 	 0.220
+6 	 75 	 Variance Frequency X Gyro Right 	 0.203
+7 	 49 	 Max X Accel Right 			 0.202
+8 	 72 	 Mean Square Frequency X Gyro Right 	 0.192
+9 	 17 	 Excess Kurtosis Y Gyro Right 		 0.186
+10 	 60 	 Variance Frequency X Accel Right 	 0.184
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 70 	 Zero Crossing Rate X Gyro Right 	 0.340
+2 	 85 	 Zero Crossing Rate Y Accel Right 	 0.245
+3 	 42 	 Mean Square Frequency Z Gyro Right 	 0.168
+4 	 72 	 Mean Square Frequency X Gyro Right 	 0.146
+5 	 25 	 Zero Crossing Rate Y Gyro Right 	 0.138
+6 	 2 	 Excess Kurtosis Z Accel Right 		 0.140
+7 	 17 	 Excess Kurtosis Y Gyro Right 		 0.127
+8 	 49 	 Max X Accel Right 			 0.128
+9 	 79 	 Max Y Accel Right 			 0.118
+10 	 75 	 Variance Frequency X Gyro Right 	 0.118
+
+
+# Extracted Features - Right Figure 8
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 						 Score
+1 	 55 	 Zero Crossing Rate X Accel Right 		 0.183
+2 	 10 	 Zero Crossing Rate Z Accel Right 		 0.147
+3 	 85 	 Zero Crossing Rate Y Accel Right 		 0.142
+4 	 14 	 Root Variance Frequency Z Accel Right	 	 0.119
+5 	 13 	 Root Mean Square Frequency Z Accel Right 	 0.119
+6 	 56 	 Frequency Center X Accel Right 		 0.096
+7 	 57 	 Mean Square Frequency X Accel Right 		 0.086
+8 	 40 	 Zero Crossing Rate Z Gyro Right 		 0.086
+9 	 26 	 Frequency Center Y Gyro Right 			 0.085
+10 	 9 	 Std Dev Z Accel Right 				 0.084
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 					 Score
+1 	 55 	 Zero Crossing Rate X Accel Right 	 0.183
+2 	 10 	 Zero Crossing Rate Z Accel Right 	 0.114
+3 	 85 	 Zero Crossing Rate Y Accel Right 	 0.107
+4 	 26 	 Frequency Center Y Gyro Right	 	 0.058
+5 	 40 	 Zero Crossing Rate Z Gyro Right 	 0.059
+6 	 56 	 Frequency Center X Accel Right 	 0.059
+7 	 14 	 Root Variance Frequency Z Accel Right 	 0.050
+8 	 57 	 Mean Square Frequency X Accel Right 	 0.038
+9 	 47 	 Excess Kurtosis X Accel Right 		 0.036
+10 	 41 	 Frequency Center Z Gyro Right 		 0.035
+
+
+# FFT - Left Straight
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.811
+2 	 599 	 Y Accel 0.0 Hz 	 0.739
+3 	 600 	 X Accel 0.0 Hz 	 0.550
+4 	 594 	 X Accel 1.0 Hz 	 0.549
+5 	 593 	 Y Accel 1.0 Hz 	 0.537
+6 	 588 	 X Accel 2.0 Hz 	 0.334
+7 	 587 	 Y Accel 2.0 Hz 	 0.253
+8 	 581 	 Y Accel 3.0 Hz 	 0.153
+9 	 582 	 X Accel 3.0 Hz 	 0.100
+10 	 576 	 X Accel 4.0 Hz 	 0.036
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.811
+2 	 588 	 X Accel 2.0 Hz 	 0.214
+3 	 600 	 X Accel 0.0 Hz 	 0.249
+4 	 599 	 Y Accel 0.0 Hz 	 0.168
+5 	 587 	 Y Accel 2.0 Hz 	 0.139
+6 	 594 	 X Accel 1.0 Hz 	 0.108
+7 	 593 	 Y Accel 1.0 Hz 	 0.093
+8 	 581 	 Y Accel 3.0 Hz 	 0.066
+9 	 582 	 X Accel 3.0 Hz 	 0.025
+10 	 396 	 X Accel 34.3 Hz 	 0.005
+
+
+# FFT - Left Donut
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.754
+2 	 594 	 X Accel 1.0 Hz 	 0.454
+3 	 593 	 Y Accel 1.0 Hz 	 0.441
+4 	 599 	 Y Accel 0.0 Hz 	 0.409
+5 	 600 	 X Accel 0.0 Hz 	 0.363
+6 	 582 	 X Accel 3.0 Hz 	 0.113
+7 	 587 	 Y Accel 2.0 Hz 	 0.099
+8 	 588 	 X Accel 2.0 Hz 	 0.054
+9 	 581 	 Y Accel 3.0 Hz 	 0.043
+10 	 598 	 Z Accel 0.0 Hz 	 0.037
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.754
+2 	 600 	 X Accel 0.0 Hz 	 0.121
+3 	 593 	 Y Accel 1.0 Hz 	 0.007
+4 	 564 	 X Accel 6.1 Hz 	 0.003
+5 	 594 	 X Accel 1.0 Hz 	 0.105
+6 	 598 	 Z Accel 0.0 Hz 	 0.010
+7 	 599 	 Y Accel 0.0 Hz 	 0.011
+8 	 398 	 Y Gyro 33.3 Hz 	 -0.000
+9 	 399 	 X Gyro 33.3 Hz 	 -0.000
+10 	 582 	 X Accel 3.0 Hz 	 0.001
+
+
+# FFT - Left Figure 8
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.196
+2 	 593 	 Y Accel 1.0 Hz 	 0.101
+3 	 594 	 X Accel 1.0 Hz 	 0.097
+4 	 599 	 Y Accel 0.0 Hz 	 0.081
+5 	 600 	 X Accel 0.0 Hz 	 0.072
+6 	 598 	 Z Accel 0.0 Hz 	 0.052
+7 	 581 	 Y Accel 3.0 Hz 	 0.037
+8 	 587 	 Y Accel 2.0 Hz 	 0.035
+9 	 588 	 X Accel 2.0 Hz 	 0.033
+10 	 582 	 X Accel 3.0 Hz 	 0.025
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 595 	 Z Gyro 0.0 Hz 		 0.196
+2 	 598 	 Z Accel 0.0 Hz 	 0.020
+3 	 596 	 Y Gyro 0.0 Hz 		 0.002
+4 	 600 	 X Accel 0.0 Hz 	 0.020
+5 	 581 	 Y Accel 3.0 Hz 	 0.003
+6 	 576 	 X Accel 4.0 Hz 	 0.002
+7 	 575 	 Y Accel 4.0 Hz 	 0.002
+8 	 437 	 Y Accel 27.3 Hz 	 0.002
+9 	 597 	 X Gyro 0.0 Hz 		 0.002
+10 	 582 	 X Accel 3.0 Hz 	 0.000
+
+
+# PSD Log - Right Straight
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 538 	 Z Accel 10.0 Hz 	 1.336
+2 	 280 	 Z Accel 53.0 Hz 	 1.307
+3 	 262 	 Z Accel 56.0 Hz 	 1.293
+4 	 274 	 Z Accel 54.0 Hz 	 1.291
+5 	 79 	 Z Gyro 86.0 Hz 	 1.245
+6 	 268 	 Z Accel 55.0 Hz 	 1.243
+7 	 532 	 Z Accel 11.0 Hz 	 1.241
+8 	 73 	 Z Gyro 87.0 Hz 	 1.226
+9 	 85 	 Z Gyro 85.0 Hz 	 1.212
+10 	 19 	 Z Gyro 96.0 Hz 	 1.197
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 538 	 Z Accel 10.0 Hz 	 1.336
+2 	 53 	 Y Accel 91.0 Hz 	 0.514
+3 	 595 	 Z Gyro 0.0 Hz 		 0.473
+4 	 34 	 Z Accel 94.0 Hz 	 0.485
+5 	 85 	 Z Gyro 85.0 Hz 	 0.497
+6 	 280 	 Z Accel 53.0 Hz 	 0.480
+7 	 194 	 Y Gyro 67.0 Hz 	 0.426
+8 	 549 	 X Gyro 8.0 Hz 		 0.416
+9 	 79 	 Z Gyro 86.0 Hz 	 0.415
+10 	 520 	 Z Accel 13.0 Hz 	 0.413
+
+
+# PSD Log - Right Donut
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 			 Score
+1 	 160 	 Z Accel 73.0 Hz 	 0.796
+2 	 316 	 Z Accel 47.0 Hz 	 0.792
+3 	 130 	 Z Accel 78.0 Hz 	 0.783
+4 	 166 	 Z Accel 72.0 Hz 	 0.776
+5 	 178 	 Z Accel 70.0 Hz 	 0.742
+6 	 184 	 Z Accel 69.0 Hz 	 0.725
+7 	 202 	 Z Accel 66.0 Hz 	 0.715
+8 	 262 	 Z Accel 56.0 Hz 	 0.712
+9 	 58 	 Z Accel 90.0 Hz 	 0.710
+10 	 310 	 Z Accel 48.0 Hz 	 0.709
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 			 Score
+1 	 160 	 Z Accel 73.0 Hz 	 0.796
+2 	 262 	 Z Accel 56.0 Hz 	 0.480
+3 	 316 	 Z Accel 47.0 Hz 	 0.425
+4 	 166 	 Z Accel 72.0 Hz 	 0.437
+5 	 280 	 Z Accel 53.0 Hz 	 0.373
+6 	 130 	 Z Accel 78.0 Hz 	 0.405
+7 	 250 	 Z Accel 58.0 Hz 	 0.372
+8 	 76 	 Z Accel 87.0 Hz 	 0.367
+9 	 178 	 Z Accel 70.0 Hz 	 0.362
+10 	 274 	 Z Accel 54.0 Hz 	 0.349
+
+
+# PSD Log - Right Figure 8
+
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 256 	 Z Accel 57.0 Hz 	 0.614
+2 	 250 	 Z Accel 58.0 Hz 	 0.611
+3 	 262 	 Z Accel 56.0 Hz 	 0.601
+4 	 280 	 Z Accel 53.0 Hz 	 0.596
+5 	 244 	 Z Accel 59.0 Hz 	 0.582
+6 	 160 	 Z Accel 73.0 Hz 	 0.565
+7 	 166 	 Z Accel 72.0 Hz 	 0.563
+8 	 274 	 Z Accel 54.0 Hz 	 0.553
+9 	 322 	 Z Accel 46.0 Hz 	 0.549
+10 	 172 	 Z Accel 71.0 Hz 	 0.540
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 	 Score
+1 	 256 	 Z Accel 57.0 Hz 	 0.614
+2 	 166 	 Z Accel 72.0 Hz 	 0.376
+3 	 64 	 Z Accel 89.0 Hz 	 0.295
+4 	 262 	 Z Accel 56.0 Hz 	 0.300
+5 	 322 	 Z Accel 46.0 Hz 	 0.272
+6 	 160 	 Z Accel 73.0 Hz 	 0.283
+7 	 280 	 Z Accel 53.0 Hz 	 0.279
+8 	 250 	 Z Accel 58.0 Hz 	 0.255
+9 	 154 	 Z Accel 74.0 Hz 	 0.262
+10 	 28 	 Z Accel 95.0 Hz 	 0.254
+

@@ -1,0 +1,92 @@
+,Left,Middle,Right
+0,Zero Crossing Rate X Accel Left,Min Z Accel Middle,Zero Crossing Rate X Accel Right
+1,Zero Crossing Rate Y Accel Left,Excess Kurtosis Z Gyro Middle,Zero Crossing Rate Z Accel Right
+2,Zero Crossing Rate X Gyro Left,Zero Crossing Rate Y Accel Middle,Zero Crossing Rate Y Accel Right
+3,Excess Kurtosis Y Accel Left,Mean Square Frequency Y Accel Middle,Zero Crossing Rate Z Gyro Right
+4,Frequency Center Z Gyro Left,Mean Z Accel Middle,Frequency Center Y Gyro Right
+5,Frequency Center Y Accel Left,Zero Crossing Rate Z Gyro Middle,Frequency Center X Accel Right
+6,Mean Square Frequency Z Accel Left,Variance Frequency X Accel Middle,Max Y Accel Right
+7,Zero Crossing Rate Y Gyro Left,Skew Y Gyro Middle,Frequency Center X Gyro Right
+8,Mean Square Frequency X Accel Left,Variance Frequency Z Gyro Middle,Root Variance Frequency Z Accel Right
+9,Excess Kurtosis Y Gyro Left,Excess Kurtosis Y Accel Middle,Frequency Center Y Accel Right
+10,Min Y Accel Left,Mean Y Gyro Middle,Mean Square Frequency X Accel Right
+11,Zero Crossing Rate Z Gyro Left,Mean Square Frequency Z Accel Middle,Frequency Center Z Gyro Right
+12,Excess Kurtosis X Accel Left,Zero Crossing Rate Y Gyro Middle,Zero Crossing Rate Y Gyro Right
+13,Min X Accel Left,Excess Kurtosis X Accel Middle,Max X Accel Right
+14,Frequency Center Y Gyro Left,Autocorrelation Z Gyro Middle,Min Y Accel Right
+15,Zero Crossing Rate Z Accel Left,Skew Z Accel Middle,Excess Kurtosis Z Accel Right
+16,Max Y Accel Left,Mean Square Frequency Z Gyro Middle,Excess Kurtosis X Accel Right
+17,Mean Square Frequency Y Accel Left,Variance Frequency X Gyro Middle,Excess Kurtosis Y Accel Right
+18,Excess Kurtosis Z Gyro Left,Mean X Accel Middle,Min X Accel Right
+19,Frequency Center X Accel Left,Skew X Gyro Middle,Variance Frequency Z Accel Right
+20,Variance Frequency X Gyro Left,Mean Square Frequency X Gyro Middle,Excess Kurtosis Y Gyro Right
+21,Std Dev Z Accel Left,Excess Kurtosis Y Gyro Middle,Excess Kurtosis X Gyro Right
+22,Max X Accel Left,Zero Crossing Rate Z Accel Middle,Variance Frequency X Accel Right
+23,Skew Z Accel Left,Skew Z Gyro Middle,Mean Square Frequency Z Gyro Right
+24,Mean Square Frequency X Gyro Left,Frequency Center Y Accel Middle,Variance Frequency Y Accel Right
+25,Variance Frequency Z Accel Left,Skew X Accel Middle,Variance Frequency X Gyro Right
+26,Std Dev Z Gyro Left,Skew Y Accel Middle,Std Dev Z Accel Right
+27,Mean Square Frequency Y Gyro Left,Mean Square Frequency X Accel Middle,Mean Square Frequency Y Gyro Right
+28,Max Z Accel Left,Zero Crossing Rate X Gyro Middle,Mean Square Frequency X Gyro Right
+29,Variance Frequency X Accel Left,Variance Frequency Y Gyro Middle,Zero Crossing Rate X Gyro Right
+30,Excess Kurtosis X Gyro Left,Frequency Center Z Gyro Middle,Autocorrelation Z Accel Right
+31,Mean Square Frequency Z Gyro Left,Min X Accel Middle,Excess Kurtosis Z Gyro Right
+32,Variance Frequency Y Accel Left,Excess Kurtosis X Gyro Middle,Skew Z Accel Right
+33,Frequency Center X Gyro Left,Mean Y Accel Middle,Variance Frequency Y Gyro Right
+34,Autocorrelation Z Accel Left,Zero Crossing Rate X Accel Middle,Root Mean Square Frequency Z Accel Right
+35,Excess Kurtosis Z Accel Left,Min Y Accel Middle,Std Dev Z Gyro Right
+36,Variance Frequency Z Gyro Left,Mean Square Frequency Y Gyro Middle,Min X Gyro Right
+37,Autocorrelation X Gyro Left,Excess Kurtosis Z Accel Middle,Skew Y Gyro Right
+38,Root Variance Frequency Z Accel Left,Std Dev Z Gyro Middle,Mean Square Frequency Y Accel Right
+39,Variance Frequency Y Gyro Left,Frequency Center Z Accel Middle,Variance Frequency Z Gyro Right
+40,Skew Y Accel Left,Max X Accel Middle,Skew X Accel Right
+41,Skew Y Gyro Left,Mean X Gyro Middle,Mean Square Frequency Z Accel Right
+42,Skew X Accel Left,Autocorrelation Y Accel Middle,Std Dev X Gyro Right
+43,Skew X Gyro Left,Root Mean Square Frequency Z Gyro Middle,Skew X Gyro Right
+44,Max Z Gyro Left,Autocorrelation Y Gyro Middle,Autocorrelation Y Gyro Right
+45,Autocorrelation Y Gyro Left,Variance Frequency Y Accel Middle,Root Mean Square Frequency X Gyro Right
+46,Root Variance Frequency X Gyro Left,Max Y Accel Middle,L2 Norm Z Gyro Right
+47,Skew Z Gyro Left,Max Z Gyro Middle,Max Z Accel Right
+48,Root Mean Square Frequency Z Gyro Left,Frequency Center X Accel Middle,Root Mean Square Frequency Y Gyro Right
+49,Root Mean Square Frequency Y Gyro Left,Frequency Center Y Gyro Middle,Root Variance Frequency Z Gyro Right
+50,Autocorrelation Y Accel Left,Frequency Center X Gyro Middle,Skew Y Accel Right
+51,Root Mean Square Frequency Z Accel Left,Max X Gyro Middle,Frequency Center Z Accel Right
+52,Std Dev Y Accel Left,Min Z Gyro Middle,Std Dev Y Gyro Right
+53,Root Mean Squared X Gyro Left,Autocorrelation Z Accel Middle,Autocorrelation X Gyro Right
+54,Min Z Accel Left,Variance Frequency Z Accel Middle,Skew Z Gyro Right
+55,Root Mean Square Frequency X Accel Left,L2 Norm Z Gyro Middle,Min Z Accel Right
+56,Max Y Gyro Left,Max Z Accel Middle,Root Mean Squared Y Accel Right
+57,Frequency Center Z Accel Left,Root Variance Frequency Z Gyro Middle,Max X Gyro Right
+58,Root Variance Frequency Y Accel Left,Root Mean Square Frequency Y Accel Middle,Max Y Gyro Right
+59,Min X Gyro Left,Autocorrelation X Accel Middle,Min Z Gyro Right
+60,Min Y Gyro Left,Min X Gyro Middle,Min Y Gyro Right
+61,Max X Gyro Left,Mean Z Gyro Middle,L2 Norm Z Accel Right
+62,Root Variance Frequency Z Gyro Left,Max Y Gyro Middle,Std Dev X Accel Right
+63,L2 Norm Z Accel Left,Root Variance Frequency X Accel Middle,Root Variance Frequency X Gyro Right
+64,Root Mean Square Frequency X Gyro Left,Root Mean Squared Z Gyro Middle,Root Mean Square Frequency Z Gyro Right
+65,Std Dev X Gyro Left,Root Variance Frequency X Gyro Middle,Root Variance Frequency Y Gyro Right
+66,L2 Norm X Accel Left,Root Mean Square Frequency Z Accel Middle,Root Variance Frequency Y Accel Right
+67,Root Variance Frequency Y Gyro Left,Autocorrelation X Gyro Middle,Root Variance Frequency X Accel Right
+68,Min Z Gyro Left,Min Y Gyro Middle,L2 Norm Y Gyro Right
+69,Std Dev Y Gyro Left,Root Variance Frequency Y Accel Middle,Std Dev Y Accel Right
+70,Mean Z Accel Left,Root Mean Square Frequency Y Gyro Middle,Mean X Gyro Right
+71,Root Mean Squared Y Accel Left,Root Mean Square Frequency X Accel Middle,Mean Z Accel Right
+72,Root Variance Frequency X Accel Left,Root Mean Square Frequency X Gyro Middle,Max Z Gyro Right
+73,Mean Y Gyro Left,Root Variance Frequency Z Accel Middle,L2 Norm X Gyro Right
+74,Root Mean Square Frequency Y Accel Left,Std Dev Y Accel Middle,L2 Norm X Accel Right
+75,Std Dev X Accel Left,Root Variance Frequency Y Gyro Middle,Root Mean Squared Z Accel Right
+76,Root Mean Squared Z Accel Left,L2 Norm X Accel Middle,Root Mean Square Frequency X Accel Right
+77,Root Mean Squared Y Gyro Left,L2 Norm X Gyro Middle,Root Mean Squared Y Gyro Right
+78,Mean X Gyro Left,L2 Norm Y Gyro Middle,Root Mean Square Frequency Y Accel Right
+79,Autocorrelation X Accel Left,Root Mean Squared X Accel Middle,Mean Z Gyro Right
+80,L2 Norm Z Gyro Left,Root Mean Squared X Gyro Middle,L2 Norm Y Accel Right
+81,L2 Norm X Gyro Left,Std Dev X Gyro Middle,Root Mean Squared X Gyro Right
+82,Mean Y Accel Left,Std Dev Y Gyro Middle,Mean X Accel Right
+83,L2 Norm Y Accel Left,Root Mean Squared Y Accel Middle,Mean Y Gyro Right
+84,L2 Norm Y Gyro Left,Std Dev X Accel Middle,Root Mean Squared Z Gyro Right
+85,Autocorrelation Z Gyro Left,Std Dev Z Accel Middle,Root Mean Squared X Accel Right
+86,Mean X Accel Left,L2 Norm Y Accel Middle,Mean Y Accel Right
+87,Root Mean Squared X Accel Left,Root Mean Squared Y Gyro Middle,Autocorrelation Z Gyro Right
+88,Mean Z Gyro Left,Root Mean Squared Z Accel Middle,Autocorrelation X Accel Right
+89,Root Mean Squared Z Gyro Left,L2 Norm Z Accel Middle,Autocorrelation Y Accel Right
+90,Label,Label,Label
