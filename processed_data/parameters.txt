@@ -1,6 +1,23 @@
 # Processed Data
 
+# Preprocessing
 Dataset = set_full
-Cutoff Frequency = Unfiltered
-Data Window = 200
+DEfault Window Size = 200 data points (used for anything without window size label)
 Trim Size = 13s per side
+Cutoff Frequency = Unfiltered
+
+# Internal IMU Settings
+
+Internal Cutoff Freq Frame Acc = 41-44 Hz Lowpass
+Internal Cutoff Freq Everything Else = 184-188 Hz Lowpass
+
+# Axes (will be changed to all possitive)
+
+X = Negative
+Y = Positive
+Z = Negative (and corrected wrong)
+
+# Max IMU Range
+
+Acc = +- 2g (will be changed to +- 4g)
+Gyro = +- 250 deg/s (will be changed to +- 500 deg/s)
