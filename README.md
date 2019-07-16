@@ -17,7 +17,8 @@ Terrain classification for power-assist wheelchairs using machine learning!
 ## Notebooks
 
 - `TerrainClassification`: Runs various preprocessing and visualization on raw data `imu_data/` from wheelchair data acquisition modules and exports processed data `processed_data/` as .csv files, then run feature selection and different classifiers
-- `TerrainClassification-Preprocessed`: For running machine learning solely off of exported .csv data (not updated)
+- `TerrainClassification-Preprocessed`: For running machine learning solely off of exported .csv data, to be used once data from all three modules is integrated into a single .csv file
+- `TerrainClassification-WindowSize`: For comparing different metrics with varying window size
 
 ## Notable Dependencies
 
