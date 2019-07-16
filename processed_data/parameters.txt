@@ -4,7 +4,8 @@
 Dataset = set_full
 DEfault Window Size = 200 data points (used for anything without window size label)
 Trim Size = 13s per side
-Cutoff Frequency = Unfiltered
+Regular Data = Unfiltered
+Filtered Data = 30 Hz Butterworth Cutoff
 
 # Internal IMU Settings
 
