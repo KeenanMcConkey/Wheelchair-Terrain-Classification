@@ -1,0 +1,434 @@
+# Optmized mRMR Results
+## That is, mRMR with 30 Hz cutoff frequency and 40 bin size optimization.
+
+### Extracted Features - Middle ###
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 27 	 RMSF Y Accel Middle 	 0.056
+2 	 30 	 RVF Y Accel Middle 	 0.056
+3 	 36 	 Min Z Accel Middle 	 0.049
+4 	 60 	 RVF X Gyro Middle 	 0.038
+5 	 57 	 RMSF X Gyro Middle 	 0.038
+6 	 53 	 ZCR X Gyro Middle 	 0.037
+7 	 26 	 MSF Y Accel Middle 	 0.036
+8 	 59 	 VF X Gyro Middle 	 0.034
+9 	 71 	 MSF Y Gyro Middle 	 0.033
+10 	 23 	 ZCR Y Accel Middle 	 0.032
+11 	 34 	 AC Z Accel Middle 	 0.032
+12 	 41 	 MSF Z Accel Middle 	 0.032
+13 	 47 	 Std X Gyro Middle 	 0.032
+14 	 65 	 Max Y Gyro Middle 	 0.031
+15 	 17 	 Std Y Accel Middle 	 0.031
+16 	 32 	 Std Z Accel Middle 	 0.030
+17 	 35 	 Max Z Accel Middle 	 0.030
+18 	 49 	 AC X Gyro Middle 	 0.030
+19 	 33 	 Norm Z Accel Middle 	 0.029
+20 	 37 	 RMS Z Accel Middle 	 0.029
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 	 Score
+1 	 27 	 RMSF Y Accel Middle 	 0.056
+2 	 85 	 Kurt Z Gyro Middle 	 0.006
+3 	 61 	 Mean Y Gyro Middle 	 0.003
+4 	 39 	 Skew Z Accel Middle 	 0.002
+5 	 53 	 ZCR X Gyro Middle 	 0.003
+6 	 38 	 ZCR Z Accel Middle 	 0.001
+7 	 86 	 MSF Z Gyro Middle 	 -0.002
+8 	 55 	 Kurt X Gyro Middle 	 -0.001
+9 	 71 	 MSF Y Gyro Middle 	 -0.000
+10 	 79 	 AC Z Gyro Middle 	 -0.003
+11 	 9 	 Skew X Accel Middle 	 -0.004
+12 	 31 	 Mean Z Accel Middle 	 -0.004
+13 	 88 	 FC Z Gyro Middle 	 -0.003
+14 	 73 	 FC Y Gyro Middle 	 -0.003
+15 	 69 	 Skew Y Gyro Middle 	 -0.007
+16 	 36 	 Min Z Accel Middle 	 -0.007
+17 	 83 	 ZCR Z Gyro Middle 	 -0.007
+18 	 24 	 Skew Y Accel Middle 	 -0.009
+19 	 23 	 ZCR Y Accel Middle 	 -0.009
+20 	 8 	 ZCR X Accel Middle 	 -0.011
+
+### Extracted Features - Left ###
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 8 	 ZCR X Accel Left 	 0.134
+2 	 23 	 ZCR Y Accel Left 	 0.112
+3 	 38 	 ZCR Z Accel Left 	 0.089
+4 	 28 	 FC Y Accel Left 	 0.085
+5 	 83 	 ZCR Z Gyro Left 	 0.081
+6 	 13 	 FC X Accel Left 	 0.069
+7 	 44 	 VF Z Accel Left 	 0.067
+8 	 11 	 MSF X Accel Left 	 0.057
+9 	 10 	 Kurt X Accel Left 	 0.056
+10 	 21 	 Min Y Accel Left 	 0.054
+11 	 41 	 MSF Z Accel Left 	 0.051
+12 	 42 	 RMSF Z Accel Left 	 0.049
+13 	 45 	 RVF Z Accel Left 	 0.049
+14 	 20 	 Max Y Accel Left 	 0.047
+15 	 88 	 FC Z Gyro Left 	 0.047
+16 	 5 	 Max X Accel Left 	 0.045
+17 	 29 	 VF Y Accel Left 	 0.044
+18 	 68 	 ZCR Y Gyro Left 	 0.043
+19 	 53 	 ZCR X Gyro Left 	 0.042
+20 	 70 	 Kurt Y Gyro Left 	 0.042
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 	 Score
+1 	 8 	 ZCR X Accel Left 	 0.134
+2 	 23 	 ZCR Y Accel Left 	 0.095
+3 	 83 	 ZCR Z Gyro Left 	 0.057
+4 	 38 	 ZCR Z Accel Left 	 0.047
+5 	 44 	 VF Z Accel Left 	 0.040
+6 	 28 	 FC Y Accel Left 	 0.038
+7 	 88 	 FC Z Gyro Left 	 0.028
+8 	 13 	 FC X Accel Left 	 0.027
+9 	 70 	 Kurt Y Gyro Left 	 0.023
+10 	 68 	 ZCR Y Gyro Left 	 0.022
+11 	 10 	 Kurt X Accel Left 	 0.024
+12 	 53 	 ZCR X Gyro Left 	 0.021
+13 	 20 	 Max Y Accel Left 	 0.019
+14 	 41 	 MSF Z Accel Left 	 0.016
+15 	 21 	 Min Y Accel Left 	 0.013
+16 	 6 	 Min X Accel Left 	 0.011
+17 	 59 	 VF X Gyro Left 	 0.011
+18 	 5 	 Max X Accel Left 	 0.010
+19 	 25 	 Kurt Y Accel Left 	 0.010
+20 	 77 	 Std Z Gyro Left 	 0.009
+
+### Extracted Features - Right ###
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 23 	 ZCR Y Accel Right 	 0.167
+2 	 8 	 ZCR X Accel Right 	 0.150
+3 	 38 	 ZCR Z Accel Right 	 0.140
+4 	 14 	 VF X Accel Right 	 0.094
+5 	 13 	 FC X Accel Right 	 0.085
+6 	 29 	 VF Y Accel Right 	 0.079
+7 	 53 	 ZCR X Gyro Right 	 0.079
+8 	 83 	 ZCR Z Gyro Right 	 0.077
+9 	 28 	 FC Y Accel Right 	 0.070
+10 	 44 	 VF Z Accel Right 	 0.069
+11 	 21 	 Min Y Accel Right 	 0.061
+12 	 41 	 MSF Z Accel Right 	 0.059
+13 	 42 	 RMSF Z Accel Right 	 0.057
+14 	 45 	 RVF Z Accel Right 	 0.057
+15 	 68 	 ZCR Y Gyro Right 	 0.053
+16 	 20 	 Max Y Accel Right 	 0.053
+17 	 6 	 Min X Accel Right 	 0.052
+18 	 5 	 Max X Accel Right 	 0.043
+19 	 88 	 FC Z Gyro Right 	 0.043
+20 	 43 	 FC Z Accel Right 	 0.037
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 	 Score
+1 	 23 	 ZCR Y Accel Right 	 0.167
+2 	 38 	 ZCR Z Accel Right 	 0.122
+3 	 8 	 ZCR X Accel Right 	 0.121
+4 	 83 	 ZCR Z Gyro Right 	 0.058
+5 	 14 	 VF X Accel Right 	 0.058
+6 	 53 	 ZCR X Gyro Right 	 0.054
+7 	 29 	 VF Y Accel Right 	 0.042
+8 	 68 	 ZCR Y Gyro Right 	 0.034
+9 	 44 	 VF Z Accel Right 	 0.033
+10 	 88 	 FC Z Gyro Right 	 0.023
+11 	 21 	 Min Y Accel Right 	 0.025
+12 	 6 	 Min X Accel Right 	 0.015
+13 	 71 	 MSF Y Gyro Right 	 0.016
+14 	 13 	 FC X Accel Right 	 0.018
+15 	 41 	 MSF Z Accel Right 	 0.015
+16 	 59 	 VF X Gyro Right 	 0.012
+17 	 20 	 Max Y Accel Right 	 0.012
+18 	 5 	 Max X Accel Right 	 0.010
+19 	 28 	 FC Y Accel Right 	 0.010
+20 	 70 	 Kurt Y Gyro Right 	 0.010
+
+### FFT - Middle ###
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 124 	 FFT 19.0 Hz Z Accel Middle 	 0.085
+2 	 130 	 FFT 18.0 Hz Z Accel Middle 	 0.084
+3 	 136 	 FFT 17.0 Hz Z Accel Middle 	 0.060
+4 	 118 	 FFT 20.0 Hz Z Accel Middle 	 0.051
+5 	 112 	 FFT 21.0 Hz Z Accel Middle 	 0.030
+6 	 126 	 FFT 19.0 Hz X Accel Middle 	 0.029
+7 	 132 	 FFT 18.0 Hz X Accel Middle 	 0.028
+8 	 142 	 FFT 16.0 Hz Z Accel Middle 	 0.025
+9 	 106 	 FFT 22.0 Hz Z Accel Middle 	 0.022
+10 	 138 	 FFT 17.0 Hz X Accel Middle 	 0.021
+11 	 94 	 FFT 24.0 Hz Z Accel Middle 	 0.015
+12 	 100 	 FFT 23.0 Hz Z Accel Middle 	 0.014
+13 	 88 	 FFT 25.0 Hz Z Accel Middle 	 0.014
+14 	 239 	 FFT 0.0 Hz Y Accel Middle 	 0.013
+15 	 120 	 FFT 20.0 Hz X Accel Middle 	 0.011
+16 	 82 	 FFT 26.0 Hz Z Accel Middle 	 0.011
+17 	 76 	 FFT 27.0 Hz Z Accel Middle 	 0.010
+18 	 113 	 FFT 21.0 Hz Y Accel Middle 	 0.009
+19 	 107 	 FFT 22.0 Hz Y Accel Middle 	 0.009
+20 	 77 	 FFT 27.0 Hz Y Accel Middle 	 0.008
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 	 Score
+1 	 124 	 FFT 19.0 Hz Z Accel Middle 	 0.085
+2 	 112 	 FFT 21.0 Hz Z Accel Middle 	 0.017
+3 	 130 	 FFT 18.0 Hz Z Accel Middle 	 0.041
+4 	 118 	 FFT 20.0 Hz Z Accel Middle 	 0.019
+5 	 136 	 FFT 17.0 Hz Z Accel Middle 	 0.023
+6 	 88 	 FFT 25.0 Hz Z Accel Middle 	 0.013
+7 	 106 	 FFT 22.0 Hz Z Accel Middle 	 0.011
+8 	 239 	 FFT 0.0 Hz Y Accel Middle 	 0.010
+9 	 142 	 FFT 16.0 Hz Z Accel Middle 	 0.012
+10 	 82 	 FFT 26.0 Hz Z Accel Middle 	 0.009
+11 	 94 	 FFT 24.0 Hz Z Accel Middle 	 0.009
+12 	 126 	 FFT 19.0 Hz X Accel Middle 	 0.009
+13 	 138 	 FFT 17.0 Hz X Accel Middle 	 0.008
+14 	 132 	 FFT 18.0 Hz X Accel Middle 	 0.009
+15 	 76 	 FFT 27.0 Hz Z Accel Middle 	 0.008
+16 	 100 	 FFT 23.0 Hz Z Accel Middle 	 0.007
+17 	 240 	 FFT 0.0 Hz X Accel Middle 	 0.006
+18 	 77 	 FFT 27.0 Hz Y Accel Middle 	 0.005
+19 	 53 	 FFT 31.0 Hz Y Accel Middle 	 0.005
+20 	 148 	 FFT 15.0 Hz Z Accel Middle 	 0.005
+
+### FFT - Left ###
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 235 	 FFT 0.0 Hz Z Gyro Left 	 0.207
+2 	 233 	 FFT 1.0 Hz Y Accel Left 	 0.120
+3 	 234 	 FFT 1.0 Hz X Accel Left 	 0.109
+4 	 239 	 FFT 0.0 Hz Y Accel Left 	 0.087
+5 	 240 	 FFT 0.0 Hz X Accel Left 	 0.071
+6 	 238 	 FFT 0.0 Hz Z Accel Left 	 0.038
+7 	 228 	 FFT 2.0 Hz X Accel Left 	 0.030
+8 	 221 	 FFT 3.0 Hz Y Accel Left 	 0.027
+9 	 227 	 FFT 2.0 Hz Y Accel Left 	 0.026
+10 	 222 	 FFT 3.0 Hz X Accel Left 	 0.022
+11 	 237 	 FFT 0.0 Hz X Gyro Left 	 0.005
+12 	 216 	 FFT 4.0 Hz X Accel Left 	 0.004
+13 	 236 	 FFT 0.0 Hz Y Gyro Left 	 0.004
+14 	 215 	 FFT 4.0 Hz Y Accel Left 	 0.002
+15 	 204 	 FFT 6.0 Hz X Accel Left 	 0.002
+16 	 157 	 FFT 13.0 Hz Z Gyro Left 	 0.000
+17 	 160 	 FFT 13.0 Hz Z Accel Left 	 0.000
+18 	 159 	 FFT 13.0 Hz X Gyro Left 	 0.000
+19 	 158 	 FFT 13.0 Hz Y Gyro Left 	 0.000
+20 	 152 	 FFT 14.0 Hz Y Gyro Left 	 0.000
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 	 Score
+1 	 235 	 FFT 0.0 Hz Z Gyro Left 	 0.207
+2 	 238 	 FFT 0.0 Hz Z Accel Left 	 0.005
+3 	 216 	 FFT 4.0 Hz X Accel Left 	 0.003
+4 	 240 	 FFT 0.0 Hz X Accel Left 	 0.003
+5 	 204 	 FFT 6.0 Hz X Accel Left 	 0.001
+6 	 236 	 FFT 0.0 Hz Y Gyro Left 	 0.001
+7 	 221 	 FFT 3.0 Hz Y Accel Left 	 0.003
+8 	 215 	 FFT 4.0 Hz Y Accel Left 	 0.001
+9 	 237 	 FFT 0.0 Hz X Gyro Left 	 0.001
+10 	 233 	 FFT 1.0 Hz Y Accel Left 	 0.009
+11 	 157 	 FFT 13.0 Hz Z Gyro Left 	 0.000
+12 	 160 	 FFT 13.0 Hz Z Accel Left 	 0.000
+13 	 159 	 FFT 13.0 Hz X Gyro Left 	 0.000
+14 	 158 	 FFT 13.0 Hz Y Gyro Left 	 0.000
+15 	 222 	 FFT 3.0 Hz X Accel Left 	 0.001
+16 	 152 	 FFT 14.0 Hz Y Gyro Left 	 0.000
+17 	 154 	 FFT 14.0 Hz Z Accel Left 	 0.000
+18 	 234 	 FFT 1.0 Hz X Accel Left 	 0.004
+19 	 156 	 FFT 14.0 Hz X Accel Left 	 0.000
+20 	 155 	 FFT 14.0 Hz Y Accel Left 	 0.000
+
+### FFT - Right ###
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 235 	 FFT 0.0 Hz Z Gyro Right 	 0.199
+2 	 233 	 FFT 1.0 Hz Y Accel Right 	 0.120
+3 	 234 	 FFT 1.0 Hz X Accel Right 	 0.104
+4 	 239 	 FFT 0.0 Hz Y Accel Right 	 0.071
+5 	 240 	 FFT 0.0 Hz X Accel Right 	 0.052
+6 	 228 	 FFT 2.0 Hz X Accel Right 	 0.036
+7 	 227 	 FFT 2.0 Hz Y Accel Right 	 0.030
+8 	 221 	 FFT 3.0 Hz Y Accel Right 	 0.019
+9 	 222 	 FFT 3.0 Hz X Accel Right 	 0.017
+10 	 238 	 FFT 0.0 Hz Z Accel Right 	 0.014
+11 	 237 	 FFT 0.0 Hz X Gyro Right 	 0.010
+12 	 236 	 FFT 0.0 Hz Y Gyro Right 	 0.009
+13 	 215 	 FFT 4.0 Hz Y Accel Right 	 0.002
+14 	 158 	 FFT 13.0 Hz Y Gyro Right 	 0.000
+15 	 159 	 FFT 13.0 Hz X Gyro Right 	 0.000
+16 	 157 	 FFT 13.0 Hz Z Gyro Right 	 0.000
+17 	 153 	 FFT 14.0 Hz X Gyro Right 	 0.000
+18 	 156 	 FFT 14.0 Hz X Accel Right 	 0.000
+19 	 155 	 FFT 14.0 Hz Y Accel Right 	 0.000
+20 	 154 	 FFT 14.0 Hz Z Accel Right 	 0.000
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 	 Score
+1 	 235 	 FFT 0.0 Hz Z Gyro Right 	 0.199
+2 	 215 	 FFT 4.0 Hz Y Accel Right 	 0.000
+3 	 236 	 FFT 0.0 Hz Y Gyro Right 	 0.002
+4 	 237 	 FFT 0.0 Hz X Gyro Right 	 0.004
+5 	 158 	 FFT 13.0 Hz Y Gyro Right 	 0.000
+6 	 239 	 FFT 0.0 Hz Y Accel Right 	 0.010
+7 	 159 	 FFT 13.0 Hz X Gyro Right 	 0.000
+8 	 238 	 FFT 0.0 Hz Z Accel Right 	 0.000
+9 	 157 	 FFT 13.0 Hz Z Gyro Right 	 0.000
+10 	 153 	 FFT 14.0 Hz X Gyro Right 	 0.000
+11 	 234 	 FFT 1.0 Hz X Accel Right 	 0.004
+12 	 156 	 FFT 14.0 Hz X Accel Right 	 0.000
+13 	 155 	 FFT 14.0 Hz Y Accel Right 	 0.000
+14 	 154 	 FFT 14.0 Hz Z Accel Right 	 0.000
+15 	 166 	 FFT 12.0 Hz Z Accel Right 	 0.000
+16 	 221 	 FFT 3.0 Hz Y Accel Right 	 0.001
+17 	 152 	 FFT 14.0 Hz Y Gyro Right 	 0.000
+18 	 233 	 FFT 1.0 Hz Y Accel Right 	 0.004
+19 	 151 	 FFT 14.0 Hz Z Gyro Right 	 0.000
+20 	 160 	 FFT 13.0 Hz Z Accel Right 	 0.000
+
+### PSD Log - Middle ###
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 176 	 PSDLog 10.0 Hz Y Gyro Middle 	 0.488
+2 	 182 	 PSDLog 9.0 Hz Y Gyro Middle 	 0.487
+3 	 188 	 PSDLog 8.0 Hz Y Gyro Middle 	 0.484
+4 	 170 	 PSDLog 11.0 Hz Y Gyro Middle 	 0.472
+5 	 164 	 PSDLog 12.0 Hz Y Gyro Middle 	 0.465
+6 	 194 	 PSDLog 7.0 Hz Y Gyro Middle 	 0.464
+7 	 179 	 PSDLog 10.0 Hz Y Accel Middle 	 0.450
+8 	 200 	 PSDLog 6.0 Hz Y Gyro Middle 	 0.447
+9 	 166 	 PSDLog 12.0 Hz Z Accel Middle 	 0.444
+10 	 165 	 PSDLog 12.0 Hz X Gyro Middle 	 0.443
+11 	 212 	 PSDLog 4.0 Hz Y Gyro Middle 	 0.441
+12 	 206 	 PSDLog 5.0 Hz Y Gyro Middle 	 0.439
+13 	 148 	 PSDLog 15.0 Hz Z Accel Middle 	 0.438
+14 	 160 	 PSDLog 13.0 Hz Z Accel Middle 	 0.438
+15 	 154 	 PSDLog 14.0 Hz Z Accel Middle 	 0.435
+16 	 177 	 PSDLog 10.0 Hz X Gyro Middle 	 0.434
+17 	 173 	 PSDLog 11.0 Hz Y Accel Middle 	 0.432
+18 	 146 	 PSDLog 15.0 Hz Y Gyro Middle 	 0.432
+19 	 158 	 PSDLog 13.0 Hz Y Gyro Middle 	 0.432
+20 	 153 	 PSDLog 14.0 Hz X Gyro Middle 	 0.431
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 	 Score
+1 	 176 	 PSDLog 10.0 Hz Y Gyro Middle 	 0.488
+2 	 46 	 PSDLog 32.0 Hz Z Accel Middle 	 0.207
+3 	 218 	 PSDLog 3.0 Hz Y Gyro Middle 	 0.210
+4 	 30 	 PSDLog 35.0 Hz X Accel Middle 	 0.197
+5 	 194 	 PSDLog 7.0 Hz Y Gyro Middle 	 0.195
+6 	 34 	 PSDLog 34.0 Hz Z Accel Middle 	 0.170
+7 	 212 	 PSDLog 4.0 Hz Y Gyro Middle 	 0.194
+8 	 179 	 PSDLog 10.0 Hz Y Accel Middle 	 0.177
+9 	 42 	 PSDLog 33.0 Hz X Accel Middle 	 0.166
+10 	 188 	 PSDLog 8.0 Hz Y Gyro Middle 	 0.174
+11 	 165 	 PSDLog 12.0 Hz X Gyro Middle 	 0.158
+12 	 206 	 PSDLog 5.0 Hz Y Gyro Middle 	 0.154
+13 	 28 	 PSDLog 35.0 Hz Z Accel Middle 	 0.150
+14 	 224 	 PSDLog 2.0 Hz Y Gyro Middle 	 0.156
+15 	 48 	 PSDLog 32.0 Hz X Accel Middle 	 0.151
+16 	 173 	 PSDLog 11.0 Hz Y Accel Middle 	 0.160
+17 	 201 	 PSDLog 6.0 Hz X Gyro Middle 	 0.154
+18 	 36 	 PSDLog 34.0 Hz X Accel Middle 	 0.152
+19 	 182 	 PSDLog 9.0 Hz Y Gyro Middle 	 0.159
+20 	 200 	 PSDLog 6.0 Hz Y Gyro Middle 	 0.150
+
+### PSD Log - Left ###
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 172 	 PSDLog 11.0 Hz Z Accel Left 	 0.348
+2 	 166 	 PSDLog 12.0 Hz Z Accel Left 	 0.316
+3 	 112 	 PSDLog 21.0 Hz Z Accel Left 	 0.306
+4 	 154 	 PSDLog 14.0 Hz Z Accel Left 	 0.304
+5 	 178 	 PSDLog 10.0 Hz Z Accel Left 	 0.302
+6 	 136 	 PSDLog 17.0 Hz Z Accel Left 	 0.296
+7 	 118 	 PSDLog 20.0 Hz Z Accel Left 	 0.288
+8 	 124 	 PSDLog 19.0 Hz Z Accel Left 	 0.287
+9 	 64 	 PSDLog 29.0 Hz Z Accel Left 	 0.286
+10 	 160 	 PSDLog 13.0 Hz Z Accel Left 	 0.283
+11 	 100 	 PSDLog 23.0 Hz Z Accel Left 	 0.282
+12 	 82 	 PSDLog 26.0 Hz Z Accel Left 	 0.282
+13 	 70 	 PSDLog 28.0 Hz Z Accel Left 	 0.279
+14 	 142 	 PSDLog 16.0 Hz Z Accel Left 	 0.276
+15 	 106 	 PSDLog 22.0 Hz Z Accel Left 	 0.272
+16 	 148 	 PSDLog 15.0 Hz Z Accel Left 	 0.271
+17 	 76 	 PSDLog 27.0 Hz Z Accel Left 	 0.270
+18 	 184 	 PSDLog 9.0 Hz Z Accel Left 	 0.269
+19 	 94 	 PSDLog 24.0 Hz Z Accel Left 	 0.265
+20 	 52 	 PSDLog 31.0 Hz Z Accel Left 	 0.249
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 	 Score
+1 	 172 	 PSDLog 11.0 Hz Z Accel Left 	 0.348
+2 	 112 	 PSDLog 21.0 Hz Z Accel Left 	 0.136
+3 	 181 	 PSDLog 9.0 Hz Z Gyro Left 	 0.101
+4 	 154 	 PSDLog 14.0 Hz Z Accel Left 	 0.148
+5 	 178 	 PSDLog 10.0 Hz Z Accel Left 	 0.124
+6 	 124 	 PSDLog 19.0 Hz Z Accel Left 	 0.117
+7 	 64 	 PSDLog 29.0 Hz Z Accel Left 	 0.108
+8 	 166 	 PSDLog 12.0 Hz Z Accel Left 	 0.107
+9 	 100 	 PSDLog 23.0 Hz Z Accel Left 	 0.091
+10 	 136 	 PSDLog 17.0 Hz Z Accel Left 	 0.086
+11 	 184 	 PSDLog 9.0 Hz Z Accel Left 	 0.083
+12 	 82 	 PSDLog 26.0 Hz Z Accel Left 	 0.085
+13 	 160 	 PSDLog 13.0 Hz Z Accel Left 	 0.074
+14 	 70 	 PSDLog 28.0 Hz Z Accel Left 	 0.074
+15 	 118 	 PSDLog 20.0 Hz Z Accel Left 	 0.071
+16 	 142 	 PSDLog 16.0 Hz Z Accel Left 	 0.068
+17 	 28 	 PSDLog 35.0 Hz Z Accel Left 	 0.068
+18 	 148 	 PSDLog 15.0 Hz Z Accel Left 	 0.069
+19 	 94 	 PSDLog 24.0 Hz Z Accel Left 	 0.064
+20 	 190 	 PSDLog 8.0 Hz Z Accel Left 	 0.064
+
+### PSD Log - Right ###
+
+*** MaxRel features ***
+Order 	 Fea 	 Name 	 Score
+1 	 172 	 PSDLog 11.0 Hz Z Accel Right 	 0.305
+2 	 166 	 PSDLog 12.0 Hz Z Accel Right 	 0.299
+3 	 178 	 PSDLog 10.0 Hz Z Accel Right 	 0.296
+4 	 112 	 PSDLog 21.0 Hz Z Accel Right 	 0.285
+5 	 160 	 PSDLog 13.0 Hz Z Accel Right 	 0.284
+6 	 154 	 PSDLog 14.0 Hz Z Accel Right 	 0.282
+7 	 106 	 PSDLog 22.0 Hz Z Accel Right 	 0.280
+8 	 88 	 PSDLog 25.0 Hz Z Accel Right 	 0.276
+9 	 100 	 PSDLog 23.0 Hz Z Accel Right 	 0.275
+10 	 82 	 PSDLog 26.0 Hz Z Accel Right 	 0.274
+11 	 118 	 PSDLog 20.0 Hz Z Accel Right 	 0.274
+12 	 136 	 PSDLog 17.0 Hz Z Accel Right 	 0.272
+13 	 94 	 PSDLog 24.0 Hz Z Accel Right 	 0.269
+14 	 124 	 PSDLog 19.0 Hz Z Accel Right 	 0.263
+15 	 34 	 PSDLog 34.0 Hz Z Accel Right 	 0.263
+16 	 148 	 PSDLog 15.0 Hz Z Accel Right 	 0.262
+17 	 142 	 PSDLog 16.0 Hz Z Accel Right 	 0.259
+18 	 28 	 PSDLog 35.0 Hz Z Accel Right 	 0.255
+19 	 184 	 PSDLog 9.0 Hz Z Accel Right 	 0.253
+20 	 46 	 PSDLog 32.0 Hz Z Accel Right 	 0.250
+
+*** mRMR features *** 
+Order 	 Fea 	 Name 	 Score
+1 	 172 	 PSDLog 11.0 Hz Z Accel Right 	 0.305
+2 	 82 	 PSDLog 26.0 Hz Z Accel Right 	 0.143
+3 	 178 	 PSDLog 10.0 Hz Z Accel Right 	 0.117
+4 	 118 	 PSDLog 20.0 Hz Z Accel Right 	 0.110
+5 	 16 	 PSDLog 37.0 Hz Z Accel Right 	 0.099
+6 	 166 	 PSDLog 12.0 Hz Z Accel Right 	 0.113
+7 	 88 	 PSDLog 25.0 Hz Z Accel Right 	 0.102
+8 	 154 	 PSDLog 14.0 Hz Z Accel Right 	 0.094
+9 	 190 	 PSDLog 8.0 Hz Z Accel Right 	 0.089
+10 	 94 	 PSDLog 24.0 Hz Z Accel Right 	 0.095
+11 	 46 	 PSDLog 32.0 Hz Z Accel Right 	 0.090
+12 	 160 	 PSDLog 13.0 Hz Z Accel Right 	 0.089
+13 	 136 	 PSDLog 17.0 Hz Z Accel Right 	 0.085
+14 	 34 	 PSDLog 34.0 Hz Z Accel Right 	 0.083
+15 	 112 	 PSDLog 21.0 Hz Z Accel Right 	 0.081
+16 	 205 	 PSDLog 5.0 Hz Z Gyro Right 	 0.079
+17 	 124 	 PSDLog 19.0 Hz Z Accel Right 	 0.085
+18 	 184 	 PSDLog 9.0 Hz Z Accel Right 	 0.083
+19 	 106 	 PSDLog 22.0 Hz Z Accel Right 	 0.082
+20 	 196 	 PSDLog 7.0 Hz Z Accel Right 	 0.081
