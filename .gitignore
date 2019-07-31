@@ -6,6 +6,9 @@
 # Ignore images
 imgs/**
 
+# Ignore raw IMU data
+imu_data/**
+
 # Ignore file backups
 *~
 
