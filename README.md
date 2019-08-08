@@ -17,6 +17,8 @@ Terrain classification for power-assist wheelchairs using machine learning!
 ## Current Notebooks
 
 - `TerrainClassification-CombinedUserData` - Imports preprocessed feature vectors from multiple users and runs feature selection and classification.
+- `TerrainClassification-RemoteData` - Processes data and runs classification on remote-controlled wheelchair data
+- `TerrainClassification-WindowSize-RemoteData` - Compares metrics of different window sizes for remote wheelchair data
 
 ## Notable Dependencies
 
