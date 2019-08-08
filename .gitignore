@@ -12,8 +12,5 @@ imu_data/**
 # Ignore file backups
 *~
 
-# Ignore processed data backups
-processed_data/backup/**
-
-# Ignore notebook used for backups
-UnusedCells.ipynb
+# Ignore processed data
+processed_data/**
