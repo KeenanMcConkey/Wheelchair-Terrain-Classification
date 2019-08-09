@@ -14,3 +14,6 @@ imu_data/**
 
 # Ignore processed data
 processed_data/**
+
+# Ignore dictionaries
+dicts/**
