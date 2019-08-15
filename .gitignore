@@ -17,3 +17,6 @@ ipynb_archive/**
 
 # Ignore processed data
 processed_data/**
+
+# Ignore non-useful models
+models/**
