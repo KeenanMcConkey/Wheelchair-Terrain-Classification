@@ -1,0 +1,3 @@
+# Note
+
+Norm param dictionary from an old implementation where scalers were saved as a dictionary of means and std devs.
