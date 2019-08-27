@@ -12,11 +12,17 @@ imu_data/**
 # Ignore file backups
 *~
 
-# Ignore notebook backups
-ipynb_archive/**
-
 # Ignore processed data
 processed_data/**
 
 # Ignore non-useful models
 models/**
+
+# Ignore dictionary archive
+dicts/archive/**
+
+# Ignore scalers
+scalers/**
+
+# Ignore tables archive
+tables/archive/**
