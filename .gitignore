@@ -26,3 +26,6 @@ scalers/**
 
 # Ignore tables archive
 tables/archive/**
+
+# Ignore terrain images
+terrain_imgs/**

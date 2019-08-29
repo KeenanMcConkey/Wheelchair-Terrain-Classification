@@ -14,12 +14,6 @@
 
 5. Export best classifiers to real time environment.
 
-## Current Notebooks
-
-- `TerrainPreprocessing-GeneralData` - Imports raw IMU data collected from DAQ modules mounted to the wheelchair for each user, runs this data through filtering, windowing, feature extraction, and standardization, and processed data to csv to be used for classification.
-- `TerrainClassification-AllData` - Imports all the types of preprocessed feature vectors from all users, runs feature selection and trains/compares classifiers on the feature vectors, and exports the best classifiers using joblib.
-- `TerrainClassification-WindowSize` - Imports all the types of preprocessed feature vectors for all the different window sizes, then trains/compares classifiers according to window size.
-
 ## Notable Dependencies
 
 - Jupyter: <https://jupyter.org/>
@@ -28,7 +22,21 @@
 - PymRMR: <https://pypi.org/project/pymrmr/>
 - Joblib: <https://joblib.readthedocs.io/en/latest/>
 
-## Archived Notebooks
+## Files
+
+- `TerrainPreprocessing-GeneralData` - Imports raw IMU data collected from DAQ modules mounted to the wheelchair for each user, runs this data through filtering, windowing, feature extraction, and standardization, and processed data to csv to be used for classification.
+- `TerrainClassification-AllData` - Imports all the types of preprocessed feature vectors from all users, runs feature selection and trains/compares classifiers on the feature vectors, and exports the best classifiers using joblib.
+- `TerrainClassification-WindowSize` - Imports all the types of preprocessed feature vectors for all the different window sizes, then trains/compares classifiers according to window size.
+- `Pi-TerrainCameraCapture` - Code to run on a Raspberry Pi in order to periodically capture images of terrain as the wheelchair moves across it.
+
+## Folders
+
+- `dicts` - Python dictionary data structures exported using joblib.
+- `ipynb_archive` - Archived notebooks.
+- `scalers` - Trained and exported scalers used for normalizing terrain data in real time.
+- `tables` - Accuracy tables of classifier/feature vector combinations.
+
+## Archived Files
 
 - `TerrainClassification-OldSetup`: Runs various preprocessing and visualization on raw data `imu_data/` from wheelchair data acquisition modules and exports processed data `processed_data/` as .csv files, then run feature selection and different classifiers.
 - `TerrainClassification-OldSetup-Preprocessed`: For running machine learning solely off of exported .csv data, to be used once data from all three modules is integrated into a single .csv file.
