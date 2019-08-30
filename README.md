@@ -61,6 +61,18 @@
 - `Frequency Domain Features` - Features that are extracted from frequency domain data, i.e. PSD transforms, e.g. Variance Frequency, Mean Square Frequency, etc.
 - `Placement` - One of three IMU placements on the wheelchair, i.e. Middle, Left, or Right, or Synthesis data which is computed by the wheelchair DAQ. Middle refers to the IMU mounted to the wheelchair frame, while Left and Right refer to the IMUs mounted on the left and right wheels.
 
+## Future Work
+
+1. Implement slope detection to better account for differences in slope of testing terrain.
+2. Integrate terrain image classification as secondary method of terrain verification.
+3. Optimize data pipeline for running preprocessing on varying user and window size (right now the notebook has to be ran multiple times when changing these parameters).
+4. Investigate using neural networks for classifying labelled, feature-engineered data (i.e. current supervised learning implementation).
+5. Investigate using neural networks for unsupervised learning (unlabelled data, feature learning).
+6. Test classifiers trained by multiple users on a new user.
+7. Look into cloud computing (e.g. AWS).
+8. Export trained PCA components to real time environment.
+9. Investigate transition detection and use transition to encourage classifier to select a new terrain.
+
 ## Archived Files
 
 - `TerrainClassification-OldSetup`: Runs various preprocessing and visualization on raw data `imu_data/` from wheelchair data acquisition modules and exports processed data `processed_data/` as .csv files, then run feature selection and different classifiers.
