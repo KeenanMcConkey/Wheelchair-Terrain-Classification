@@ -6,9 +6,6 @@ backup/**
 # Ignore python checkpoints
 .ipynb_checkpoints
 
-# Ignore images
-imgs/**
-
 # Ignore file backups
 *~
 
