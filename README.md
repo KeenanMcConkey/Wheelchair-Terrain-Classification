@@ -14,13 +14,9 @@
 
 5. Export best classifiers to real time environment.
 
-![PCA][pca]
+![PCA](https://github.com/KeenanMcConkey/Wheelchair-Terrain-Classification/tree/master/imgs/PCA.png)
 
-[pca]: https://github.com/KeenanMcConkey/Wheelchair-Terrain-Classification/tree/master/imgs/PCA.png "PCA"
-
-![PAPAW][papaw]
-
-[papaw]: https://github.com/KeenanMcConkey/Wheelchair-Terrain-Classification/tree/master/imgs/PAPAW.png "PAPAW"
+![PAPAW](https://github.com/KeenanMcConkey/Wheelchair-Terrain-Classification/tree/master/imgs/PAPAW.png)
 
 ## Notable Dependencies
 

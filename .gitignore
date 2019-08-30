@@ -9,30 +9,12 @@ backup/**
 # Ignore images
 imgs/**
 
-# Ignore raw IMU data
-imu_data/archive/**
-imu_data/*
-
 # Ignore file backups
 *~
-
-# Ignore processed data
-processed_data/archive/**
-processed_data/*
-
-# Ignore models
-models/archive/**
-models/*
 
 # Ignore dictionary archive
 dicts/archive/**
 
-# Ignore scalers
-scalers/archive/**
-scalers/*
-
 # Ignore tables archive
 tables/archive/**
 
-# Ignore terrain images
-terrain_imgs/*
