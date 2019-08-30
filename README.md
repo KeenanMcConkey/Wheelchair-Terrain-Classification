@@ -16,7 +16,7 @@
 
 ![PCA](https://github.com/KeenanMcConkey/Wheelchair-Terrain-Classification/tree/master/imgs/readme/PCA.png "PCA")
 
-![PAPAW](https://github.com/KeenanMcConkey/Wheelchair-Terrain-Classification/tree/master/imgs/readme/PAPAW.png "PAPAW")
+![PAPAW](https://github.com/KeenanMcConkey/Wheelchair-Terrain-Classification/tree/master/imgs/readme/PAPAW.jpg "PAPAW")
 
 ## Notable Dependencies
 
