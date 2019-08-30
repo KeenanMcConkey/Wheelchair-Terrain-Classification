@@ -21,6 +21,7 @@
 - Scikit Learn: <https://scikit-learn.org/stable/>
 - PymRMR: <https://pypi.org/project/pymrmr/>
 - Joblib: <https://joblib.readthedocs.io/en/latest/>
+- PyTorch: <https://pytorch.org/>
 
 ## Files
 
@@ -28,23 +29,27 @@
 - `TerrainClassification-AllData` - Imports all the types of preprocessed feature vectors from all users, runs feature selection and trains/compares classifiers on the feature vectors, and exports the best classifiers using joblib.
 - `TerrainClassification-WindowSize` - Imports all the types of preprocessed feature vectors for all the different window sizes, then trains/compares classifiers according to window size.
 - `Pi-TerrainCameraCapture` - Code to run on a Raspberry Pi in order to periodically capture images of terrain as the wheelchair moves across it.
+- `ImageClassification` - Imports terrain images and uses a pretrained CNN to perform image classification in PyTorch.
+
+## Parameters
+
+- `User` - Which wheelchair user the data was collected with.
+- `Window Size` - Size of data window to extract feature vectors from. Default is one second.
+- `Power Type` - Which level of power assistance the data was collected with.
 
 ## Folders
 
 - `dicts` - Python dictionary data structures exported using joblib.
+- `imgs` - Exported images.
+- `imu_data` - Raw IMU data exported from the wheelchair.
 - `ipynb_archive` - Archived notebooks.
+- `models` - Trained models to be exported to the real time environment.
+- `processed_data` - Preprocessed data exported by the preprocessing notebook.
 - `scalers` - Trained and exported scalers used for normalizing terrain data in real time.
 - `tables` - Accuracy tables of classifier/feature vector combinations.
+- `terrain_imgs` - Images captured of terrain during traversal, used to train image classifier.
 
-## Archived Files
-
-- `TerrainClassification-OldSetup`: Runs various preprocessing and visualization on raw data `imu_data/` from wheelchair data acquisition modules and exports processed data `processed_data/` as .csv files, then run feature selection and different classifiers.
-- `TerrainClassification-OldSetup-Preprocessed`: For running machine learning solely off of exported .csv data, to be used once data from all three modules is integrated into a single .csv file.
-- `TerrainClassification-RemoteData` - Processes data and runs classification on remote-controlled wheelchair data.
-- `TerrainClassification-WindowSize-RemoteData` - Compares metrics of different window sizes for remote wheelchair data.
-- `Terrainclassification-<User><Power>Data` - Instances of the same notebook running on data collected from different users on different wheelchairs.
-
-### Glossary
+## Glossary
 
 - `Power Assist vs Manual Wheelchair` - A power assist (specifically a PAPAW) is similar to a standard manual wheelchair, but has hub motors attached to the wheels that boosts user torque applied to pushrims on the wheels.
 - `Dataset` - Data recorded on one terrain, using a specific movement pattern, by a single user for a set time.
@@ -54,6 +59,14 @@
 - `Transformed Features` - Features extracted by performing a transform on a data window, either FFT or PSD (which is usually just log(PSD)). Each frequency bin of a transform corresponds to a feature of a feature vector.
 - `Time Domain Features` - Features that are extracted directly from time domain data in a data window, e.g. Mean, Min, Max, Skew, etc.
 - `Frequency Domain Features` - Features that are extracted from frequency domain data, i.e. PSD transforms, e.g. Variance Frequency, Mean Square Frequency, etc.
-- `Placement` - One of three IMU placements on the wheelchair, i.e. Middle, Left, or Right, or Synthesis data which is computed by the wheelchair DAQ. Middle refers to the IMU mounted to the wheelchair frame, while Left and Right refer to the IMUs mounted on the left and right wheels.q
+- `Placement` - One of three IMU placements on the wheelchair, i.e. Middle, Left, or Right, or Synthesis data which is computed by the wheelchair DAQ. Middle refers to the IMU mounted to the wheelchair frame, while Left and Right refer to the IMUs mounted on the left and right wheels.
+
+## Archived Files
+
+- `TerrainClassification-OldSetup`: Runs various preprocessing and visualization on raw data `imu_data/` from wheelchair data acquisition modules and exports processed data `processed_data/` as .csv files, then run feature selection and different classifiers.
+- `TerrainClassification-OldSetup-Preprocessed`: For running machine learning solely off of exported .csv data, to be used once data from all three modules is integrated into a single .csv file.
+- `TerrainClassification-RemoteData` - Processes data and runs classification on remote-controlled wheelchair data.
+- `TerrainClassification-WindowSize-RemoteData` - Compares metrics of different window sizes for remote wheelchair data.
+- `Terrainclassification-<User><Power>Data` - Instances of the same notebook running on data collected from different users on different wheelchairs.
 
 #### Created by Keenan McConkey

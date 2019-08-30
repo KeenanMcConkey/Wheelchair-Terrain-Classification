@@ -2,7 +2,14 @@
     Simple RasperryPi application to periodically capture images of terrain as 
     a wheelchair moves across it using the Pi Camera
     
-    Recommend using SSH to run this application from a remote laptop.
+    Use SSH to run this application from a remote laptop:
+
+	$ssh -X pi@196.168.0.101
+	$python ~/TerrainCamera/TerrainCameraCapture.py
+
+    To download images from the Pi
+
+	scp -r pi@192.168.0.101:~/TerrainCamera/images <location/on/laptop>
     
     Created by Keenan McConkey on 2019.08.27
 '''

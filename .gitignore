@@ -1,5 +1,8 @@
 ### Git Ignore ###
 
+# Ignore backups
+backup/**
+
 # Ignore python checkpoints
 .ipynb_checkpoints
 
