@@ -14,10 +14,6 @@
 
 5. Export best classifiers to real time environment.
 
-![PCA](https://github.com/KeenanMcConkey/Wheelchair-Terrain-Classification/tree/master/imgs/readme/PCA.png "PCA")
-
-![PAPAW](https://github.com/KeenanMcConkey/Wheelchair-Terrain-Classification/tree/master/imgs/readme/PAPAW.jpg "PAPAW")
-
 ## Notable Dependencies
 
 - Jupyter: <https://jupyter.org/>
